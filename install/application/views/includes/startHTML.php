@@ -27,11 +27,11 @@
       
       <nav id="navBar"> <!--navigation bar begins-->
         <ul id="menu">
-          <li class="home"><a href="index.php">HOME</a></li>
-          <li class="about"><a href="about.php">ABOUT ME</a></li>
-          <li class="classes"><a href="classes.php">CLASSES</a></li>
-          <li class="gallery"><a href="gallery.php">VIDEO</a></li>
-          <li class="contact"><a href="contact.php">CONTACT ME</a></li>
+          <li class="home"><a href="home">HOME</a></li>
+          <li class="about"><a href="about">ABOUT ME</a></li>
+          <li class="classes"><a href="classtimes">CLASSES</a></li>
+          <li class="gallery"><a href="gallery">VIDEO</a></li>
+          <li class="contact"><a href="contact">CONTACT ME</a></li>
         </ul>
       </nav> <!--navigation bar ends--> 
     </header><!--logo and menu container ends-->
