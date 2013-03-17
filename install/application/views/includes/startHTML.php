@@ -7,10 +7,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   
-  <title><?phpZumba with Christina | Home?></title>
+  <title>Zumba with Christina | Home</title>
   
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="<?=base_url()?>/css/_main.css">
+  <link rel="stylesheet" href="../../public/css/_main.css">
  <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <script src="<?=base_url()?>/js/modernizr-2.6.2.min.js"></script> <!-- * -->
 </head>
@@ -27,11 +27,11 @@
       
       <nav id="navBar"> <!--navigation bar begins-->
         <ul id="menu">
-          <li class="home"><a href="index.html">HOME</a></li>
-          <li class="about"><a href="about.html">ABOUT ME</a></li>
-          <li class="classes"><a href="classes.html">CLASSES</a></li>
-          <li class="gallery"><a href="gallery.html">VIDEO</a></li>
-          <li class="contact"><a href="contact.html">CONTACT ME</a></li>
+          <li class="home"><a href="index.php">HOME</a></li>
+          <li class="about"><a href="about.php">ABOUT ME</a></li>
+          <li class="classes"><a href="classes.php">CLASSES</a></li>
+          <li class="gallery"><a href="gallery.php">VIDEO</a></li>
+          <li class="contact"><a href="contact.php">CONTACT ME</a></li>
         </ul>
       </nav> <!--navigation bar ends--> 
     </header><!--logo and menu container ends-->
