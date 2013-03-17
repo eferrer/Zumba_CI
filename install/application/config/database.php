@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'eileenfe_tblcom';
-$db['default']['password'] = 'gidget92';
-$db['default']['database'] = 'eileenfe_tbl_comments';
+$db['default']['username'] = 'eileenfe_zumba';
+$db['default']['password'] = 'zumba2013';
+$db['default']['database'] = 'eileenfe_zumba';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
