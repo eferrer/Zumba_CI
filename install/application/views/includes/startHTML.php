@@ -7,34 +7,31 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   
-  <title>
-  <?php 
-$objContent = $query_result->row();
-
-
-	 //ternary
-	 echo (isset($objContent->title))?$objContent->title:'Default title';
-	  
-	// the same as
-	// if(isset($title)){
-	// 	echo $title;
-	// }else{
-	// 	echo '';
-	// }
- ?>
-</title> 
-
-
-<meta name="description" content="<?php echo (isset($description))?$description:'description' ; ?>">
-<meta name="author" content="">
-  <meta name="viewport" content="width=device-width,initial-scale=1"><!--very important line to include - enables iphone to recognise portrait and landscape-->
-
- <!--  Note the use of base url; turn on url helpers in the config.php file 
- - look at autoload folder in the config folder -->
-  <link rel="stylesheet" href="<?=base_url()?>css/style.css">
-  <script src="../../js/modernizr-2.6.2.min.js"></script>
-<head>
-    
+  <title><?phpZumba with Christina | Home?></title>
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="<?=base_url()?>/css/_main.css">
+ <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <script src="<?=base_url()?>/js/modernizr-2.6.2.min.js"></script> <!-- * -->
 </head>
 <body>
-    <!-- Insert your content here -->
+    
+  
+  <div id="wrapper"> <!-- wrapper begins-->
+      
+    <header id="headerContainer"> <!--logo and menu container begins-->
+      
+      <div id="logo"><!-- logo begins -->
+        <a href="home.html">logo</a>
+      </div><!--logo ends-->     
+      
+      <nav id="navBar"> <!--navigation bar begins-->
+        <ul id="menu">
+          <li class="home"><a href="index.html">HOME</a></li>
+          <li class="about"><a href="about.html">ABOUT ME</a></li>
+          <li class="classes"><a href="classes.html">CLASSES</a></li>
+          <li class="gallery"><a href="gallery.html">VIDEO</a></li>
+          <li class="contact"><a href="contact.html">CONTACT ME</a></li>
+        </ul>
+      </nav> <!--navigation bar ends--> 
+    </header><!--logo and menu container ends-->
