@@ -10,7 +10,7 @@
   <title>Zumba with Christina | Home</title>
   
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="../../public/css/_main.css">
+  <link rel="stylesheet" href="<?=base_url()?>public/css/_main.css">
  <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <script src="<?=base_url()?>/js/modernizr-2.6.2.min.js"></script> <!-- * -->
 </head>
