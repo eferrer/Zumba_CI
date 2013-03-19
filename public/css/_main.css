@@ -250,15 +250,8 @@ p, pre, dl, menu, ol, ul {
 
 @font-face {
   font-family: 'aliquamregular';
-  src: url("../assets/fonts/aliquamreg-webfont.eot");
-  src: url("../assets/fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/aliquamreg-webfont.woff") format("woff"), url("../assets/fonts/aliquamreg-webfont.ttf") format("truetype"), url("../assets/fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'journalregular';
-  src: url("../assets/fonts/journal-webfont.eot");
-  src: url("../assets/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/journal-webfont.woff") format("woff"), url("../assets/fonts/journal-webfont.ttf") format("truetype"), url("../assets/fonts/journal-webfont.svg#journalregular") format("svg");
+  src: url("../fonts/aliquamreg-webfont.eot");
+  src: url("../fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aliquamreg-webfont.woff") format("woff"), url("../fonts/aliquamreg-webfont.ttf") format("truetype"), url("../fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -1855,7 +1848,7 @@ footer {
 
 /* line 290, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .zinNetwork {
-  background-image: url("../assets/images/full/zin.png");
+  background-image: url("../images/full/zin.png");
   background-repeat: no-repeat; }
 
 /* line 295, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
@@ -1864,7 +1857,7 @@ footer {
 
 /* line 299, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .zumbatomic {
-  background-image: url("../assets/images/full/zumbatomic.png");
+  background-image: url("../images/full/zumbatomic.png");
   background-repeat: no-repeat; }
 
 /* line 307, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
@@ -3357,15 +3350,8 @@ ul.icons li [class*=" icon-"] {
 
   @font-face {
     font-family: 'aliquamregular';
-    src: url("../assets/fonts/aliquamreg-webfont.eot");
-    src: url("../assets/fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/aliquamreg-webfont.woff") format("woff"), url("../assets/fonts/aliquamreg-webfont.ttf") format("truetype"), url("../assets/fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
-    font-weight: normal;
-    font-style: normal; }
-
-  @font-face {
-    font-family: 'journalregular';
-    src: url("../assets/fonts/journal-webfont.eot");
-    src: url("../assets/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/journal-webfont.woff") format("woff"), url("../assets/fonts/journal-webfont.ttf") format("truetype"), url("../assets/fonts/journal-webfont.svg#journalregular") format("svg");
+    src: url("../fonts/aliquamreg-webfont.eot");
+    src: url("../fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aliquamreg-webfont.woff") format("woff"), url("../fonts/aliquamreg-webfont.ttf") format("truetype"), url("../fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
     font-weight: normal;
     font-style: normal; }
 
@@ -3376,7 +3362,7 @@ ul.icons li [class*=" icon-"] {
 
   /* line 12, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media30.scss */
   #logo {
-    background-image: url("../assets/images/full/zumbaLogo30.png");
+    background-image: url("../images/thumb/zumbaLogo30.png");
     background-repeat: no-repeat;
     width: 250px;
     max-width: 100%;
@@ -3385,7 +3371,7 @@ ul.icons li [class*=" icon-"] {
 
   /* line 23, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media30.scss */
   #mainImage {
-    background-image: url("../assets/images/thumb/zumbaHome50.jpg");
+    background-image: url("../images/thumb/zumbaHome50.jpg");
     background-repeat: no-repeat;
     width: 350px;
     max-width: 90%;
@@ -3840,15 +3826,8 @@ ul.icons li [class*=" icon-"] {
 
   @font-face {
     font-family: 'aliquamregular';
-    src: url("../assets/fonts/aliquamreg-webfont.eot");
-    src: url("../assets/fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/aliquamreg-webfont.woff") format("woff"), url("../assets/fonts/aliquamreg-webfont.ttf") format("truetype"), url("../assets/fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
-    font-weight: normal;
-    font-style: normal; }
-
-  @font-face {
-    font-family: 'journalregular';
-    src: url("../assets/fonts/journal-webfont.eot");
-    src: url("../assets/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/journal-webfont.woff") format("woff"), url("../assets/fonts/journal-webfont.ttf") format("truetype"), url("../assets/fonts/journal-webfont.svg#journalregular") format("svg");
+    src: url("../fonts/aliquamreg-webfont.eot");
+    src: url("../fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aliquamreg-webfont.woff") format("woff"), url("../fonts/aliquamreg-webfont.ttf") format("truetype"), url("../fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
     font-weight: normal;
     font-style: normal; }
 
@@ -3859,7 +3838,7 @@ ul.icons li [class*=" icon-"] {
 
   /* line 15, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media50.scss */
   #logo {
-    background-image: url("../assets/images/full/zumbaLogo50.png");
+    background-image: url("../images/full/zumbaLogo50.png");
     background-repeat: no-repeat;
     width: 480px;
     max-width: 100%;
@@ -3868,7 +3847,7 @@ ul.icons li [class*=" icon-"] {
 
   /* line 26, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media50.scss */
   #mainImage {
-    background-image: url("../assets/images/thumb/zumbaHome50.jpg");
+    background-image: url("../images/thumb/zumbaHome50.jpg");
     background-repeat: no-repeat;
     width: 350px;
     max-width: 90%;
@@ -3953,7 +3932,7 @@ ul.icons li [class*=" icon-"] {
   /* line 118, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media50.scss */
   .zumbaCom a {
     display: block;
-    background-image: url("../assets/images/full/zumba.png");
+    background-image: url("../images/full/zumba.png");
     background-repeat: no-repeat;
     width: 265px;
     max-width: 100%;
@@ -4343,21 +4322,14 @@ ul.icons li [class*=" icon-"] {
 
   @font-face {
     font-family: 'aliquamregular';
-    src: url("../assets/fonts/aliquamreg-webfont.eot");
-    src: url("../assets/fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/aliquamreg-webfont.woff") format("woff"), url("../assets/fonts/aliquamreg-webfont.ttf") format("truetype"), url("../assets/fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
-    font-weight: normal;
-    font-style: normal; }
-
-  @font-face {
-    font-family: 'journalregular';
-    src: url("../assets/fonts/journal-webfont.eot");
-    src: url("../assets/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/journal-webfont.woff") format("woff"), url("../assets/fonts/journal-webfont.ttf") format("truetype"), url("../assets/fonts/journal-webfont.svg#journalregular") format("svg");
+    src: url("../fonts/aliquamreg-webfont.eot");
+    src: url("../fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aliquamreg-webfont.woff") format("woff"), url("../fonts/aliquamreg-webfont.ttf") format("truetype"), url("../fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
     font-weight: normal;
     font-style: normal; }
 
   /* line 14, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   #logo {
-    background-image: url("../assets/images/full/zumbaLogo80.png");
+    background-image: url("../images/full/zumbaLogo80.png");
     background-repeat: no-repeat;
     width: 800px;
     max-width: 100%;
@@ -4366,7 +4338,7 @@ ul.icons li [class*=" icon-"] {
 
   /* line 25, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   #mainImage {
-    background-image: url("../assets/images/full/zumbaHome1281.jpg");
+    background-image: url("../images/full/zumbaHome1281.jpg");
     background-repeat: no-repeat;
     width: 800px;
     max-width: 90%;
@@ -4422,12 +4394,13 @@ ul.icons li [class*=" icon-"] {
     max-width: 100%;
     height: 100%;
     margin-top: 3rem;
+    background-color: #f7f7f7;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     border: 60px solid white; }
 
-  /* line 105, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 106, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .homeHeading {
     display: block;
     width: 90%;
@@ -4437,20 +4410,20 @@ ul.icons li [class*=" icon-"] {
     padding-bottom: 1rem;
     border-bottom: 5px solid #a8e232; }
 
-  /* line 116, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 117, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   #content {
     float: left;
     width: 55%;
     margin-left: 5%;
     margin-bottom: 1rem; }
 
-  /* line 124, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 125, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .info {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem; }
 
-  /* line 131, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 132, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   h2 {
     clear: both;
     text-align: center;
@@ -4458,7 +4431,7 @@ ul.icons li [class*=" icon-"] {
     color: #a8e232;
     font-size: 2rem; }
 
-  /* line 141, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 142, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   #rightContent {
     display: block;
     float: right;
@@ -4467,21 +4440,21 @@ ul.icons li [class*=" icon-"] {
     margin-left: 3%;
     margin-right: 5%; }
 
-  /* line 153, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 154, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .viewClassText a {
     font-size: 1.9rem; }
 
-  /* line 158, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 159, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   #zumbaContainer {
     width: 100%;
     height: 100%;
     margin: auto;
     margin-top: 3rem; }
 
-  /* line 166, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 167, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .zumbaCom a {
     clear: both;
-    background-image: url("../assets/images/full/zumba.png");
+    background-image: url("../images/full/zumba.png");
     background-repeat: no-repeat;
     width: 265px;
     max-width: 100%;
@@ -4491,7 +4464,7 @@ ul.icons li [class*=" icon-"] {
     margin: auto;
     font-size: 0rem; }
 
-  /* line 182, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 183, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   #homeTag {
     clear: both;
     margin: auto;
@@ -4502,24 +4475,24 @@ ul.icons li [class*=" icon-"] {
     color: #a8e232;
     font-size: 2rem; }
 
-  /* line 195, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 196, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   footer {
     margin-top: -1rem;
     padding-top: 1rem; }
 
-  /* line 200, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 201, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .zin {
     float: left;
     width: 30%;
     margin-left: 20%; }
 
-  /* line 206, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 207, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .atomic {
     float: right;
     width: 30%;
     margin-right: 20%; }
 
-  /* line 212, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 213, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .zinNetwork {
     display: block;
     width: 150px;
@@ -4527,11 +4500,11 @@ ul.icons li [class*=" icon-"] {
     height: 53px;
     margin: auto; }
 
-  /* line 220, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 221, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .zinDate {
     font-size: 0.8rem; }
 
-  /* line 224, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 225, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .zumbatomic {
     display: block;
     width: 192px;
@@ -4540,44 +4513,44 @@ ul.icons li [class*=" icon-"] {
     margin: auto;
     margin-top: 1rem; }
 
-  /* line 234, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 235, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .social {
     clear: both;
     width: 80%;
     margin: auto;
     margin-top: 2rem;
     border-top: 2px solid #f7931e; }
-    /* line 241, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+    /* line 242, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
     .social li {
       display: inline-block;
       width: 30%;
       height: 2rem;
       margin-top: 1rem;
       margin-bottom: 2rem; }
-    /* line 249, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+    /* line 250, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
     .social a {
       font-size: 2rem; }
 
-  /* line 254, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 255, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .text {
     font-size: 1rem; }
 
-  /* line 258, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 259, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   #copyright {
     height: 4rem;
     margin-top: -1rem; }
-    /* line 262, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+    /* line 263, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
     #copyright p {
       font-size: 0.8rem;
       padding-top: 1rem; }
 
-  /* line 271, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 272, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   #slideshow {
     max-width: 50%;
     margin-top: 2rem;
     margin-right: 3rem; }
 
-  /* line 278, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 279, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .centered-btns_nav {
     z-index: 3;
     position: absolute;
@@ -4593,17 +4566,17 @@ ul.icons li [class*=" icon-"] {
     background: transparent url("../assets/images/themes.gif") no-repeat left top;
     margin-top: -45px; }
 
-  /* line 294, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 295, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .centered-btns_nav:active {
     opacity: 1.0; }
 
-  /* line 298, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 299, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .centered-btns_nav.next {
     left: auto;
     background-position: right top;
     right: 7%; }
 
-  /* line 304, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 305, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .transparent-btns_nav {
     z-index: 3;
     position: absolute;
@@ -4620,12 +4593,12 @@ ul.icons li [class*=" icon-"] {
     overflow: hidden;
     height: 91%; }
 
-  /* line 320, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 321, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .transparent-btns_nav.next {
     left: auto;
     right: 0; }
 
-  /* line 325, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 326, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .large-btns_nav {
     z-index: 3;
     position: absolute;
@@ -4639,30 +4612,30 @@ ul.icons li [class*=" icon-"] {
     background: black url("../assets/images/themes.gif") no-repeat left 50%;
     width: 38px; }
 
-  /* line 339, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 340, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .large-btns_nav:active {
     opacity: 1.0; }
 
-  /* line 343, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 344, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .large-btns_nav.next {
     left: auto;
     background-position: right 50%;
     right: 0; }
 
-  /* line 351, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 352, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .centered-btns_nav:focus,
   .transparent-btns_nav:focus,
   .large-btns_nav:focus {
     outline: none; }
 
-  /* line 357, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 358, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .centered-btns_tabs,
   .transparent-btns_tabs,
   .large-btns_tabs {
     margin-top: 10px;
     text-align: center; }
 
-  /* line 364, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 365, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .centered-btns_tabs li,
   .transparent-btns_tabs li,
   .large-btns_tabs li {
@@ -4672,7 +4645,7 @@ ul.icons li [class*=" icon-"] {
     *float: left;
     margin-right: 5px; }
 
-  /* line 374, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 375, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .centered-btns_tabs a,
   .transparent-btns_tabs a,
   .large-btns_tabs a {
@@ -4692,7 +4665,7 @@ ul.icons li [class*=" icon-"] {
     width: 9px;
     height: 9px; }
 
-  /* line 394, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
+  /* line 395, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media80.scss */
   .centered-btns_here a,
   .transparent-btns_here a,
   .large-btns_here a {
@@ -5053,21 +5026,14 @@ ul.icons li [class*=" icon-"] {
 
   @font-face {
     font-family: 'aliquamregular';
-    src: url("../assets/fonts/aliquamreg-webfont.eot");
-    src: url("../assets/fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/aliquamreg-webfont.woff") format("woff"), url("../assets/fonts/aliquamreg-webfont.ttf") format("truetype"), url("../assets/fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
-    font-weight: normal;
-    font-style: normal; }
-
-  @font-face {
-    font-family: 'journalregular';
-    src: url("../assets/fonts/journal-webfont.eot");
-    src: url("../assets/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/journal-webfont.woff") format("woff"), url("../assets/fonts/journal-webfont.ttf") format("truetype"), url("../assets/fonts/journal-webfont.svg#journalregular") format("svg");
+    src: url("../fonts/aliquamreg-webfont.eot");
+    src: url("../fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aliquamreg-webfont.woff") format("woff"), url("../fonts/aliquamreg-webfont.ttf") format("truetype"), url("../fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
     font-weight: normal;
     font-style: normal; }
 
   /* line 14, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #logo {
-    background-image: url("../assets/images/full/zumbaLogo1281.png");
+    background-image: url("../images/full/zumbaLogo1281.png");
     background-repeat: no-repeat;
     width: 1200px;
     max-width: 100%;
@@ -5076,7 +5042,7 @@ ul.icons li [class*=" icon-"] {
 
   /* line 27, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #mainImage {
-    background-image: url("../assets/images/full/zumbaHome1281.jpg");
+    background-image: url("../images/full/zumbaHome1281.jpg");
     background-repeat: no-repeat;
     width: 800px;
     max-width: 90%;
@@ -5125,16 +5091,17 @@ ul.icons li [class*=" icon-"] {
 
   /* line 90, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #mainContainer {
-    background-image: url("../assets/images/whiteWall.png");
+    background-repeat: repeat;
     max-width: 80%;
     height: 100%;
     margin-top: 3rem;
+    background-color: #f7f7f7;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     border: 60px solid white; }
 
-  /* line 99, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 101, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .homeHeading {
     display: block;
     width: 90%;
@@ -5144,20 +5111,20 @@ ul.icons li [class*=" icon-"] {
     padding-bottom: 1rem;
     border-bottom: 5px solid #a8e232; }
 
-  /* line 110, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 112, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #content {
     float: left;
     width: 55%;
     margin-left: 5%;
     margin-bottom: 1rem; }
 
-  /* line 118, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 120, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .info {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem; }
 
-  /* line 128, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 130, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #rightContent {
     display: block;
     float: right;
@@ -5166,21 +5133,21 @@ ul.icons li [class*=" icon-"] {
     margin-left: 3%;
     margin-right: 5%; }
 
-  /* line 140, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 142, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .viewClassText a {
     font-size: 2rem; }
 
-  /* line 145, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 147, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #zumbaContainer {
     width: 100%;
     height: 100%;
     margin: auto;
     margin-top: 3rem; }
 
-  /* line 153, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 155, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .zumbaCom a {
     clear: both;
-    background-image: url("../assets/images/full/zumba.png");
+    background-image: url("../images/full/zumba.png");
     background-repeat: no-repeat;
     width: 265px;
     max-width: 100%;
@@ -5190,7 +5157,7 @@ ul.icons li [class*=" icon-"] {
     margin: auto;
     font-size: 0rem; }
 
-  /* line 169, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 171, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #homeTag {
     clear: both;
     margin: auto;
@@ -5201,24 +5168,24 @@ ul.icons li [class*=" icon-"] {
     color: #a8e232;
     font-size: 2rem; }
 
-  /* line 182, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 184, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   footer {
     margin-top: -1rem;
     padding-top: 1rem; }
 
-  /* line 187, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 189, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .zin {
     float: left;
     width: 20%;
     margin-left: 30%; }
 
-  /* line 193, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 195, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .atomic {
     float: right;
     width: 20%;
     margin-right: 30%; }
 
-  /* line 199, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 201, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .zinNetwork {
     display: block;
     width: 150px;
@@ -5226,11 +5193,11 @@ ul.icons li [class*=" icon-"] {
     height: 53px;
     margin: auto; }
 
-  /* line 207, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 209, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .zinDate {
     font-size: 0.8rem; }
 
-  /* line 211, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 213, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .zumbatomic {
     display: block;
     width: 192px;
@@ -5239,44 +5206,44 @@ ul.icons li [class*=" icon-"] {
     margin: auto;
     margin-top: 1rem; }
 
-  /* line 221, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 223, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .social {
     clear: both;
     width: 80%;
     margin: auto;
     margin-top: 2rem;
     border-top: 2px solid #f7931e; }
-    /* line 228, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+    /* line 230, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
     .social li {
       display: inline-block;
       width: 20%;
       height: 2rem;
       margin-top: 1rem;
       margin-bottom: 2rem; }
-    /* line 237, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+    /* line 239, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
     .social a {
       font-size: 2rem; }
 
-  /* line 242, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 244, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .text {
     font-size: 1rem; }
 
-  /* line 246, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 248, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #copyright {
     height: 4rem;
     margin-top: -1rem; }
-    /* line 250, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+    /* line 252, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
     #copyright p {
       font-size: 0.8rem;
       padding-top: 1rem; }
 
-  /* line 259, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 261, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   #slideshow {
     max-width: 50%;
     margin-top: 2rem;
     margin-right: 3rem; }
 
-  /* line 266, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 268, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .centered-btns_nav {
     z-index: 3;
     position: absolute;
@@ -5289,20 +5256,20 @@ ul.icons li [class*=" icon-"] {
     text-decoration: none;
     height: 61px;
     width: 38px;
-    background: transparent url("../assets/images/themes.gif") no-repeat left top;
+    background: transparent url("../images/assets/themes.gif") no-repeat left top;
     margin-top: -45px; }
 
-  /* line 282, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 284, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .centered-btns_nav:active {
     opacity: 1.0; }
 
-  /* line 286, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 288, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .centered-btns_nav.next {
     left: auto;
     background-position: right top;
     right: 7%; }
 
-  /* line 292, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 294, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .transparent-btns_nav {
     z-index: 3;
     position: absolute;
@@ -5319,12 +5286,12 @@ ul.icons li [class*=" icon-"] {
     overflow: hidden;
     height: 91%; }
 
-  /* line 308, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 310, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .transparent-btns_nav.next {
     left: auto;
     right: 0; }
 
-  /* line 313, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 315, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .large-btns_nav {
     z-index: 3;
     position: absolute;
@@ -5338,30 +5305,30 @@ ul.icons li [class*=" icon-"] {
     background: black url("../assets/images/themes.gif") no-repeat left 50%;
     width: 38px; }
 
-  /* line 327, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 329, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .large-btns_nav:active {
     opacity: 1.0; }
 
-  /* line 331, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 333, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .large-btns_nav.next {
     left: auto;
     background-position: right 50%;
     right: 0; }
 
-  /* line 339, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 341, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .centered-btns_nav:focus,
   .transparent-btns_nav:focus,
   .large-btns_nav:focus {
     outline: none; }
 
-  /* line 345, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 347, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .centered-btns_tabs,
   .transparent-btns_tabs,
   .large-btns_tabs {
     margin-top: 10px;
     text-align: center; }
 
-  /* line 352, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 354, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .centered-btns_tabs li,
   .transparent-btns_tabs li,
   .large-btns_tabs li {
@@ -5371,7 +5338,7 @@ ul.icons li [class*=" icon-"] {
     *float: left;
     margin-right: 5px; }
 
-  /* line 362, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 364, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .centered-btns_tabs a,
   .transparent-btns_tabs a,
   .large-btns_tabs a {
@@ -5391,7 +5358,7 @@ ul.icons li [class*=" icon-"] {
     width: 9px;
     height: 9px; }
 
-  /* line 382, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
+  /* line 384, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_media1281.scss */
   .centered-btns_here a,
   .transparent-btns_here a,
   .large-btns_here a {
