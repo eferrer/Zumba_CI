@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Gallery extends CI_Controller {
+class Classtimes extends CI_Controller {
 
     /**
      * Index Page for this controller.
@@ -20,7 +20,7 @@ class Gallery extends CI_Controller {
     public function index()
     {
         $this->load->view('includes/startHTML');
-        $this->load->view('gallery');
+        $this->load->view('classes');
         $this->load->view('includes/endHTML');
     }
 
