@@ -21,20 +21,19 @@ class About extends CI_Controller {
     // Test 1. Test that the about controller is calling Cmsmodel correctly
     // WORKS!!
     
-    public function index()
-    {
-            $data=array();
+    // public function index()
+    // {
+    //         $data=array();
 
-            $this->load->model('Cmsmodel');
-            $data['content'] = $this->Cmsmodel->getContentByPageID();
+    //         $this->load->model('Cmsmodel');
+    //         $data['content'] = $this->Cmsmodel->getContentByPageID();
             
-            $this->load->view('includes/startHTML');
-            $this->load->view('aboutView', $data);
-            $this->load->view('includes/endHTML');
-    }
+    //         $this->load->view('includes/startHTML');
+    //         $this->load->view('aboutView', $data);
+    //         $this->load->view('includes/endHTML');
+    // }
     
-     //==============================================================
-    
+    //==============================================================
     // Test 2. Test with the page ID hardcoded
     
     
@@ -69,7 +68,7 @@ class About extends CI_Controller {
         //     $this->load->view("alternateView", $data);
         //     $this->load->view("includes/endHTML");
         // }
-    }
+    //}
 
 }
 
