@@ -7,6 +7,9 @@ class About extends CI_Model{
         parent::__construct();
     }
     
-    
+    public function getContentByPageID()
+    {
+        
+    }
     
 } // end of class About
