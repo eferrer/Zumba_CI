@@ -38,10 +38,10 @@
 <!-- <script src="javascripts/responsiveslides.js"></script>
 <script src="javascripts/responsiveslides.min.js"></script> -->
 
-<script src="<?=base_url()?>/js/main.js"></script> 
+<script src="<?=base_url()?>public/js/main.js"></script> 
 
-<script src="<?=base_url()?>/js/jquery.easing.1.3.js" type="text/javascript"></script>  
-<script src="<?=base_url()?>/js/animated-menu.js" type="text/javascript"></script>
+<script src="<?=base_url()?>public/js/jquery.easing.1.3.js" type="text/javascript"></script>  
+<script src="<?=base_url()?>public/js/animated-menu.js" type="text/javascript"></script>
 
 <script>
     // This is embedded for DEMO SCRIPT ONLY. 
