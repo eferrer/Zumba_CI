@@ -36,13 +36,13 @@ class About extends CI_Controller {
     //==============================================================
     // Test 2. Test with the page ID hardcoded
     
-    
+
     public function index()
     {
             $data=array();
 
             $this->load->model('Cmsmodel');
-            $data['content'] = $this->Cmsmodel->getContentByPageID();
+            $data['content'] = $this->Cmsmodel->getContentByPageIDa();
             
             $this->load->view('includes/startHTML');
             $this->load->view('aboutView', $data);
