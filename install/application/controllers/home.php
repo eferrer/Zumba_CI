@@ -48,6 +48,18 @@ class Home extends CI_Controller {
             $this->load->view('homeView', $data);
             $this->load->view('includes/endHTML');
     }
+
+    // public function indexmh()
+    // {
+    //         $data=array();
+
+    //         $this->load->model('Cmsmodel');
+    //         $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDh();
+            
+    //         $this->load->view('includes/startHTML');
+    //         $this->load->view('homeView', $data);
+    //         $this->load->view('includes/endHTML');
+    // }
     
     
     //  public function index()

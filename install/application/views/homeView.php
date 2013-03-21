@@ -11,7 +11,18 @@
        <!-- <img src="assets/images/full/photo2.jpg" width="800" height="600" alt="zumba"/> -->
       </section>   
       
-      <h1 class="homeHeading">What is ZUMBA Fitness?</h1>
+      <h1 class="homeHeading">
+        <!-- What is ZUMBA Fitness? -->
+
+        <?php 
+            
+            // $oMainHeading = $mainHeading->row();
+            // echo nl2br($oMainHeading->H1);
+            
+            
+            ?>
+
+      </h1>
       
       <section id="content"> <!--content begins-->    
         
