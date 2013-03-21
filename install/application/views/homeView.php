@@ -16,8 +16,8 @@
 
         <?php 
             
-            // $oMainHeading = $mainHeading->row();
-            // echo nl2br($oMainHeading->H1);
+            $oMainHeading = $mainHeading->row();
+            echo nl2br($oMainHeading->H1);
             
             
             ?>

@@ -43,6 +43,7 @@ class Home extends CI_Controller {
 
             $this->load->model('Cmsmodel');
             $data['content'] = $this->Cmsmodel->getContentByPageIDh();
+            $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDh();
             
             $this->load->view('includes/startHTML');
             $this->load->view('homeView', $data);
