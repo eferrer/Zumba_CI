@@ -18,7 +18,7 @@ class Cmsmodel extends CI_Model{
     
     //==============================================================
 
-    // GET CONTENT BY PAGE ID
+    // A. GET CONTENT BY PAGE ID
 
     //==============================================================
 
@@ -47,7 +47,7 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
     
-      // 1. b. Classes page all content
+      // 1. c. Classes page all content
 
     public function getContentByPageIDc()
     {
@@ -60,13 +60,13 @@ class Cmsmodel extends CI_Model{
    
      //==============================================================
 
-    // GET H1 BY PAGE ID
+    // B. GET H1 BY PAGE ID
 
     //==============================================================
 
      // 1. with the page ID hardcoded
     
-     // 1. a. home page heading
+     // 1. a. home page main heading
 
     public function getMainHeadingByPageIDh()
     {
@@ -77,13 +77,24 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
     
-     // 1. b. about page heading
+     // 1. b. about page main heading
 
     public function getMainHeadingByPageIDa()
     {
         $sql = "SELECT H1
                 FROM tbContent
                 WHERE pageID=2";
+                
+        return $this->db->query($sql);
+    }
+
+    // 1. b. classes page main headings
+
+    public function getMainHeadingByPageIDc()
+    {
+        $sql = "SELECT H1
+                FROM tbContent
+                WHERE pageID=3";
                 
         return $this->db->query($sql);
     }

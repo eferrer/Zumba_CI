@@ -9,23 +9,44 @@
             // print_r($oContent);
             // echo "</pre>";
 
+            // ==========return content result as an array of all the rows==========
+            // rows contain an array of a single row
 
-            $aContent = $content->result_array();
+            // $aContent = $content->result_array();
 
-            print_r($aContent[1]);
-            echo $aContent[1]['contentDetails'];
+            // print_r($aContent[1]);
+            // echo $aContent[1]['contentDetails'];
+
+            // echo "<pre>";
+            // print_r($aContent);
+            // echo "</pre>";
+
+            // ==========return main headings result as an array of all the rows==========
+
+            $aMainHeading = $mainHeading->result_array();
+
+            print_r($aMainHeading[1]);
+            echo $aMainHeading[1]['H1'];
 
             echo "<pre>";
-            print_r($aContent);
+            print_r($aMainHeading);
             echo "</pre>";
-
-            // $oContent = $content->row();
-            // echo nl2br($oContent->contentDetails);
             
             ?>
 
     
-          <h1 class="classHeading">CLASS SCHEDULE</h1>
+          <h1 class="classHeading">
+            <!-- CLASS SCHEDULE -->
+
+            <?php
+
+            $aMainHeading = $mainHeading->result_array();
+            echo $aMainHeading[0]['H1'];
+
+            ?>
+
+
+          </h1>
 
             <section id="classSchedule"> <!--class schedule content begins-->    
                   
@@ -67,7 +88,17 @@
 
       <section id="mainContainer" class="cf"><!--price schedule container begins-->
     
-          <h1 class="classHeading">PRICE SCHEDULE</h1>
+          <h1 class="classHeading">
+            <!-- PRICE SCHEDULE -->
+
+            <?php
+
+            $aMainHeading = $mainHeading->result_array();
+            echo $aMainHeading[1]['H1'];
+
+            ?>
+
+          </h1>
             
             <section id="priceSchedule"> <!--price schedule content begins-->    
               
@@ -118,7 +149,15 @@
       
       <section id="mainContainer" class="cf"><!--class info container begins-->
         
-        <h1 class="classHeading">INFORMATION FOR STUDENTS</h1>
+        <h1 class="classHeading">
+          <!-- INFORMATION FOR STUDENTS -->
+          <?php
+
+            $aMainHeading = $mainHeading->result_array();
+            echo $aMainHeading[4]['H1'];
+
+            ?>
+        </h1>
         
         <section id="studentInfo"> <!--student information content begins-->    
           
