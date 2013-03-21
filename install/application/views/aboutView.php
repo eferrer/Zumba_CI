@@ -20,21 +20,16 @@
           <p> Many women have said to me, I would love to give it a try, but I'm too afraid, or I don't how to dance. Here's your chance to give it a go!</P>
           <p> My class will be perfect for those beginners, but it will also be a great workout for those that have also done it before.</p>
           <p>I have taught from ages 5-75 years old! So no matter what your age, shape or fitness/dance level is, become inspired with me to "Party Your Shape Into Fitness"!
-          <P> If I can do it, so can you!</p>  -->
+          <p> If I can do it, so can you!</p>  -->
             
+            <p>
             <?php 
             
             $oContent = $content->row();
             echo nl2br($oContent->contentDetails);
             
-        
-      
-
-            
-            
-            
             ?>
-            
+            </p>
         </article><!--content paragraphs end-->
         
       </section> <!--content ends--> 

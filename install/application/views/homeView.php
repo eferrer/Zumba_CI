@@ -34,14 +34,14 @@
           <p>If you’re looking for an exercise program that’s fun and exciting, then Zumba Fitness is for you!  The program is designed for everyone and is effective for all ages and fitness levels. The movements are easy to follow dance steps which mean that you do not have to know how to dance to do Zumba.  Once you start, you’ll get hooked and instead of dreading your workouts, you’ll be looking forward to them and wanting more.</p>
         
           <p>They don’t call it “Exercise in Disguise” for nothing!</p> -->
-
+          <p>
           <?php 
             
             $oContent = $content->row();
             echo nl2br($oContent->contentDetails);
             
-            
             ?>
+            </p>
         </article><!--content paragraphs end-->
         
       </section> <!--content ends--> 
