@@ -17,8 +17,27 @@ class Cmsmodel extends CI_Model{
     // }
     
     //==============================================================
-    // Test 2. Test with the page ID hardcoded
+
+    // GET CONTENT BY PAGE ID
+
+    //==============================================================
+
+    // 1. with the page ID hardcoded
     
+     // 1. a. home page content
+
+    public function getContentByPageIDh()
+    {
+        $sql = "SELECT contentDetails
+                FROM tbContent
+                WHERE pageID=1";
+                
+        return $this->db->query($sql);
+    }
+
+
+    // 1. b. about page: about me content
+
     public function getContentByPageIDa()
     {
         $sql = "SELECT contentDetails
@@ -26,9 +45,19 @@ class Cmsmodel extends CI_Model{
                 WHERE pageID=2";
                 
         return $this->db->query($sql);
-               // return  'steve woz here';
     }
     
+      // 1. b. Classes page all content
+
+    public function getContentByPageIDc()
+    {
+        $sql = "SELECT contentDetails
+                FROM tbContent
+                WHERE pageID=3";
+                
+        return $this->db->query($sql);
+    }
+   
     
     /*
 
