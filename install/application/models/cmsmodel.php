@@ -19,17 +19,46 @@ class Cmsmodel extends CI_Model{
     //==============================================================
     // Test 2. Test with the page ID hardcoded
     
-    public function getContentByPageID()
+    public function getContentByPageIDa()
     {
         $sql = "SELECT contentDetails
                 FROM tbContent
                 WHERE pageID=2";
                 
         return $this->db->query($sql);
+               // return  'steve woz here';
     }
     
     
-    
+    /*
+
+    public function getContentByPageID()
+    {
+        $pageID = 1;
+        if($this->uri->segment(3)){
+            $pageID = this->uri->segment(3);
+        }
+        $sql = "SELECT contentDetails
+                FROM tbContent
+                WHERE pageID=$pageID";
+                
+        return $this->db->query($sql);
+               // return  'steve woz here';
+    }
+*/
+    // public function getContentByPageID()
+    // {
+    //     $pageID = 1;
+    //     if($this->uri->segment(3)){
+    //         $pageID = this->uri->segment(3);
+    //     }
+    //     $sql = "SELECT contentDetails
+    //             FROM tbContent
+    //             WHERE pageID=$pageID";
+                
+    //     return $this->db->query($sql);
+               // return  'steve woz here';
+    //}  
     
     // public function getContentByPageID()
     // {
