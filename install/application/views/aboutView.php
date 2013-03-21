@@ -17,11 +17,6 @@
             $oContent = $content->row();
             echo nl2br($oContent->contentDetails);
             
-        
-      
-
-            
-            
             
             ?>
             
