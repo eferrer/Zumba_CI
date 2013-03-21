@@ -23,29 +23,34 @@
 
             // ==========return main headings result as an array of all the rows==========
 
-            $aMainHeading = $mainHeading->result_array();
+            // $aMainHeading = $mainHeading->result_array();
 
-            print_r($aMainHeading[1]);
-            echo $aMainHeading[1]['H1'];
+            // print_r($aMainHeading[1]);
+            // echo $aMainHeading[1]['H1'];
+
+            // echo "<pre>";
+            // print_r($aMainHeading);
+            // echo "</pre>";
+
+            // ==========return sub headings result as an array of all the rows==========
+
+            $aSubHeading = $subHeading->result_array();
+
+            print_r($aSubHeading[1]);
+            echo $aSubHeading[1]['H3'];
 
             echo "<pre>";
-            print_r($aMainHeading);
+            print_r($aSubHeading);
             echo "</pre>";
             
             ?>
 
     
-          <h1 class="classHeading">
-            <!-- CLASS SCHEDULE -->
-
+          <h1 class="classHeading"><!-- CLASS SCHEDULE -->
             <?php
-
-            $aMainHeading = $mainHeading->result_array();
-            echo $aMainHeading[0]['H1'];
-
+                  $aMainHeading = $mainHeading->result_array();
+                  echo $aMainHeading[0]['H1'];
             ?>
-
-
           </h1>
 
             <section id="classSchedule"> <!--class schedule content begins-->    
@@ -88,55 +93,52 @@
 
       <section id="mainContainer" class="cf"><!--price schedule container begins-->
     
-          <h1 class="classHeading">
-            <!-- PRICE SCHEDULE -->
-
+          <h1 class="classHeading"><!-- PRICE SCHEDULE -->
             <?php
-
-            $aMainHeading = $mainHeading->result_array();
-            echo $aMainHeading[1]['H1'];
-
+                  $aMainHeading = $mainHeading->result_array();
+                  echo $aMainHeading[1]['H1'];
             ?>
-
           </h1>
             
             <section id="priceSchedule"> <!--price schedule content begins-->    
               
               <article class="classPrice">
-                <h3>CASUAL CLASS:</h3>
-                <p>
-                  <!-- $10 per class -->
-
+                
+                <h3><!-- CASUAL CLASS: -->
                   <?php
-
-                  $aContent = $content->result_array();
-                  echo $aContent[1]['contentDetails'];
-
+                        $aSubHeading = $subHeading->result_array();
+                        echo $aSubHeading[1]['H3'];
                   ?>
+                </h3>
 
-                </p>
-                <h3>CONCESSION CARDS:</h3>
-                <p>
-                  <!-- $40 for 5 classes<br/>$75 for 10 classes -->
-
+                <p><!-- $10 per class -->
                   <?php
+                        $aContent = $content->result_array();
+                        echo $aContent[1]['contentDetails'];
+                  ?>
+                </p>
 
-                  $aContent = $content->result_array();
-                  echo nl2br($aContent[2]['contentDetails']);
+                <h3><!-- CONCESSION CARDS: -->
+                   <?php
+                        $aSubHeading = $subHeading->result_array();
+                        echo $aSubHeading[2]['H3'];
+                  ?>
+                </h3>
 
+                <p><!-- $40 for 5 classes. $75 for 10 classes -->
+                  <?php
+                        $aContent = $content->result_array();
+                        echo nl2br($aContent[2]['contentDetails']);
                   ?>
                 </p>
               
-                <p>
-                  <!-- Cards can be used only for the Tuesday, Wednesday, and Friday classes.<br/>There is no expiry date on concession cards.  -->
-
+                <p><!--card information-->
                   <?php
-
-                  $aContent = $content->result_array();
-                  echo nl2br($aContent[3]['contentDetails']);
-
+                        $aContent = $content->result_array();
+                        echo nl2br($aContent[3]['contentDetails']);
                   ?>
                 </p>
+
               </article>
 
             </section> <!--price schedule content ends--> 
@@ -149,37 +151,38 @@
       
       <section id="mainContainer" class="cf"><!--class info container begins-->
         
-        <h1 class="classHeading">
-          <!-- INFORMATION FOR STUDENTS -->
+        <h1 class="classHeading"><!-- INFORMATION FOR STUDENTS -->
           <?php
-
-            $aMainHeading = $mainHeading->result_array();
-            echo $aMainHeading[4]['H1'];
-
+                  $aMainHeading = $mainHeading->result_array();
+                  echo $aMainHeading[4]['H1'];
             ?>
         </h1>
         
         <section id="studentInfo"> <!--student information content begins-->    
           
-
-          <h3>WHAT TO EXPECT</h3>
-          <article class="studentInfo"><!--content paragraphs begin-->
-            <!-- <p>Most Zumba classes are an hour long. They begin with a dynamic warm-up and end with a cool down and some static stretching. The workout portion is broken down by song, with alternating fast and slow routines. As a result, you’ll burn calories – up to 800 in 1 class- as you tone and sculpt your body.. While many of the moves the instructors use are pre-choreographed by Zumba, instructors often add their own flair, dance steps or even create an entirely new routine to their favorite songs. Common moves in class are mambas, V-steps with exaggerated hips, cha-cha-chas and side touches.</p>
-
-            <p>Unlike other aerobics classes, where you learn a move and then add on more moves to create a routine, Zumba uses different parts of the song, such as the chorus or a particular phrase or sound in the song, as the basis of its choreography. Zumba is also unique in that its instructors don't speak much. Instead they cue you on what to do with hand signals of which direction to move, or a loud hand clap that signifies that it's time to move to a new move. Overall, participants learn as they go through repetition and by example. This can be frustrating for first-timers, but because Zumba uses a lot of the same songs over and over, you will get the hang of it after a few Zumba classes.</p>
-          
-            <p>Zumba is one of the highest energy workouts, but unlike many other exercise routines, zumba really doesn't feel like you're working out at all—you just get caught up in the fun of the music and the moves. Before you know it, a whole heart-pumping hour has passed! </p> -->
-            <p>
+          <h3><!-- WHAT TO EXPECT -->
             <?php
+                  $aSubHeading = $subHeading->result_array();
+                  echo $aSubHeading[4]['H3'];
+              ?>
+          </h3>
 
+          <article class="studentInfo"><!--content paragraphs begin-->
+              <p>
+              <?php
                   $aContent = $content->result_array();
                   echo nl2br($aContent[4]['contentDetails']);
-
-                  ?>
+               ?>
               </p>
           </article><!--content paragraphs end-->
           
-          <h3>WHAT YOU WILL NEED</h3>
+          <h3><!-- WHAT YOU WILL NEED -->
+            <?php
+                  $aSubHeading = $subHeading->result_array();
+                  echo $aSubHeading[5]['H3'];
+              ?>
+          </h3>
+
           <ul class="needs">
             <li>Plenty of water</li>
             <li>A towel</li>

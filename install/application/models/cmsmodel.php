@@ -88,7 +88,7 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
 
-    // 1. b. classes page main headings
+    // 1. c. classes page main headings
 
     public function getMainHeadingByPageIDc()
     {
@@ -98,6 +98,28 @@ class Cmsmodel extends CI_Model{
                 
         return $this->db->query($sql);
     }
+
+    //==============================================================
+
+    // B. GET H3 BY PAGE ID
+
+    //==============================================================
+
+    // 1. c. classes page sub headings
+
+    public function getSubHeadingByPageIDc()
+    {
+        $sql = "SELECT H3
+                FROM tbContent
+                WHERE pageID=3";
+                
+        return $this->db->query($sql);
+    }
+
+
+
+
+
 
 
 
