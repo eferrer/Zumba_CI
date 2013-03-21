@@ -1,7 +1,17 @@
    
     <section id="mainContainer" class="cf"><!--main container begins-->  
     
-      <h1 class="aboutHeading">ABOUT ME</h1>
+      <h1 class="aboutHeading">
+        <!-- ABOUT ME -->
+
+        <?php 
+            
+            $oMainHeading = $mainHeading->row();
+            echo nl2br($oMainHeading->H1);
+            
+            
+            ?>
+      </h1>
     
       <section id="about"> <!--content begins-->    
         

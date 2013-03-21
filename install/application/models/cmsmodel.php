@@ -66,13 +66,24 @@ class Cmsmodel extends CI_Model{
 
      // 1. with the page ID hardcoded
     
-     // 1. a. home page content
+     // 1. a. home page heading
 
     public function getMainHeadingByPageIDh()
     {
         $sql = "SELECT H1
                 FROM tbContent
                 WHERE pageID=1";
+                
+        return $this->db->query($sql);
+    }
+    
+     // 1. b. about page heading
+
+    public function getMainHeadingByPageIDa()
+    {
+        $sql = "SELECT H1
+                FROM tbContent
+                WHERE pageID=2";
                 
         return $this->db->query($sql);
     }
