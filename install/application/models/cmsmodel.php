@@ -22,9 +22,9 @@ class Cmsmodel extends CI_Model{
 
     //==============================================================
 
-    // 1. with the page ID hardcoded
+    // A. 1. with the page ID hardcoded
     
-     // 1. a. home page content
+     // A. 1. a. home page content
 
     public function getContentByPageIDh()
     {
@@ -36,7 +36,7 @@ class Cmsmodel extends CI_Model{
     }
 
 
-    // 1. b. about page: about me content
+    // A. 1. b. about page: about me content
 
     public function getContentByPageIDa()
     {
@@ -47,7 +47,7 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
     
-      // 1. c. Classes page all content
+      // A. 1. c. Classes page all content
 
     public function getContentByPageIDc()
     {
@@ -66,7 +66,7 @@ class Cmsmodel extends CI_Model{
 
      // 1. with the page ID hardcoded
     
-     // 1. a. home page main heading
+     // B. 1. a. home page main heading
 
     public function getMainHeadingByPageIDh()
     {
@@ -77,7 +77,7 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
     
-     // 1. b. about page main heading
+     // B. 1. b. about page main heading
 
     public function getMainHeadingByPageIDa()
     {
@@ -88,7 +88,7 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
 
-    // 1. c. classes page main headings
+    // B. 1. c. classes page main headings
 
     public function getMainHeadingByPageIDc()
     {
@@ -101,11 +101,23 @@ class Cmsmodel extends CI_Model{
 
     //==============================================================
 
-    // B. GET H3 BY PAGE ID
+    // C. GET H3 BY PAGE ID
 
     //==============================================================
 
-    // 1. c. classes page sub headings
+    // 1. with the page ID hardcoded
+
+    // A. 1. c. about page testimonials sub heading
+
+    public function getSubHeadingByPageIDa()
+    {
+        $sql = "SELECT H3
+                FROM tbContent
+                WHERE pageID=2";
+                
+        return $this->db->query($sql);
+    }
+    // C. 1. c. classes page sub headings
 
     public function getSubHeadingByPageIDc()
     {
@@ -116,6 +128,15 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
 
+    //==============================================================
+
+    // D. GET H3 BY PAGE ID
+
+    //==============================================================
+
+    // 1. with the page ID hardcoded
+
+   
 
 
 
