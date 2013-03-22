@@ -1481,7 +1481,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #testimonials { width: 90%; margin: auto; }
   #testimonials ul { margin-top: 2rem; }
   #testimonials li { margin-bottom: 1rem; color: #999999; }
-  h4 { display: inline; font-size: 1.2rem; padding-bottom: 0.5rem; border-bottom: 5px solid #ec31b1; }
+  #testimonials h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #ec31b1; }
   #aboutTag { width: 90%; margin: auto; text-align: center; padding-top: 2rem; padding-bottom: 1rem; color: #ec31b1; font-size: 1.5rem; }
   #promo { margin-top: 2rem; margin-bottom: 3rem; }
   .promoAbout { width: 65%; margin: auto; border: 25px solid #ec31b1; }
@@ -1563,7 +1563,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #testimonials { width: 90%; margin: auto; }
   #testimonials ul { margin-top: 2rem; }
   #testimonials li { margin-bottom: 1rem; color: #999999; }
-  h4 { display: inline; font-size: 1.2rem; padding-bottom: 0.5rem; border-bottom: 5px solid #ec31b1; }
+  #testimonials h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #ec31b1; }
   #aboutTag { width: 90%; margin: auto; text-align: center; padding-top: 2rem; padding-bottom: 1rem; color: #ec31b1; font-size: 1.5rem; }
   #promo { margin-top: 2rem; margin-bottom: 3rem; }
   .promoAbout { width: 65%; margin: auto; margin-top: 2rem; margin-bottom: 3rem; border: 25px solid #ec31b1; }
@@ -1668,7 +1668,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #testimonials { clear: both; width: 90%; margin: auto; }
   #testimonials ul { width: 100%; margin-top: 3rem; }
   #testimonials li { margin-bottom: 1rem; color: #999999; }
-  h4 { display: inline; font-size: 1.2rem; padding-bottom: 0.5rem; border-bottom: 5px solid #ec31b1; }
+  #testimonials h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #ec31b1; }
   #aboutTag { margin: auto; width: 95%; text-align: center; padding-top: 3.5rem; padding-bottom: 2rem; color: #ec31b1; font-size: 2rem; }
   #promo { margin-top: 3rem; margin-bottom: 4rem; }
   .promoAbout { width: 55%; margin: auto; border: 25px solid #ec31b1; }
@@ -1773,7 +1773,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #testimonials { margin-top: 2rem; clear: both; width: 90%; margin: auto; }
   #testimonials ul { width: 100%; margin-top: 3rem; }
   #testimonials li { margin-bottom: 1rem; color: #999999; }
-  h4 { display: inline; font-size: 1.2rem; padding-bottom: 0.5rem; border-bottom: 5px solid #ec31b1; }
+  #testimonials h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #ec31b1; }
   #aboutTag { clear: both; margin: auto; width: 95%; text-align: center; padding-top: 3.5rem; padding-bottom: 2rem; color: #ec31b1; font-size: 2rem; }
   #promo { margin-top: 3rem; margin-bottom: 4rem; }
   .promoAbout { width: 55%; margin: auto; margin-top: 3rem; margin-bottom: 4rem; border: 25px solid #ec31b1; }
