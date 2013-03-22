@@ -721,7 +721,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
 
 .icon-folder-open-alt:before { content: "\f115"; }
 
-body { font-family: "aliquamregular", sans-serif; letter-spacing: 0.1rem; background-color: #14080a; height: 100%; }
+body { font-family: "Arimo", sans-serif; letter-spacing: 0.1rem; background-color: #14080a; height: 100%; }
 
 #wrapper { height: 100%; background-color: #14080a; background-size: 10px 10px; background-color: rgba(20, 8, 10, 0.9); background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); background-image: -mslinear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); background-image: -olinear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); }
 
@@ -731,15 +731,15 @@ h1 { display: block; color: #14080a; }
 
 h2 { font-family: "Kaushan Script", cursive; }
 
-h3 { font-family: "aliquamregular", sans-serif; color: #14080a; letter-spacing: 0rem; }
+h3 { font-family: "Arimo", sans-serif; color: #14080a; letter-spacing: 0rem; }
 
-h4 { font-family: "aliquamregular", sans-serif; color: #14080a; }
+h4 { font-family: "Arimo", sans-serif; color: #14080a; }
 
-a { font-family: "aliquamregular", sans-serif; letter-spacing: 0.1rem; }
+a { font-family: "Arimo", sans-serif; letter-spacing: 0.1rem; }
 
-p { font-family: "aliquamregular", sans-serif; letter-spacing: 0.1rem; font-size: 1rem; line-height: 1.5rem; color: #999999; }
+p { font-family: "Arimo", sans-serif; letter-spacing: 0.1rem; font-size: 1rem; line-height: 1.5rem; color: #999999; }
 
-li { font-family: "aliquamregular", sans-serif; letter-spacing: 0.1rem; }
+li { font-family: "Arimo", sans-serif; letter-spacing: 0.1rem; }
 
 .fontAwesome { font-family: 'FontAwesome'; }
 
@@ -777,7 +777,7 @@ header { width: 100%; height: 100%; text-align: center; background-color: #f7931
 .viewClassText a { display: block; max-width: 90%; height: 100%; padding: 8px 0; font-family: "Kaushan Script", cursive; font-size: 1.9rem; font-weight: bolder; text-align: center; color: #14080a; background-color: #a8e232; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border: 30px solid #14080a; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); outline: 2px solid #a8e232; outline-offset: -25px; }
 .viewClassText a:hover { color: #a8e232; background-color: #14080a; }
 
-#toggleButton { display: block; font-family: "aliquamregular", sans-serif; font-size: 1.2rem; color: white; letter-spacing: 0.1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #1fe0fc; border: 1px solid #1fe0fc; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
+#toggleButton { display: block; font-family: "Arimo", sans-serif; font-size: 1.2rem; color: white; letter-spacing: 0.1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #1fe0fc; border: 1px solid #1fe0fc; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
 
 #form { -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; background-color: rgba(153, 153, 153, 0.1); }
 
@@ -785,7 +785,7 @@ input[type="email"], input[type="text"], textarea { background-color: white; bor
 
 .required { font-size: 0.8rem; color: #9f4ac8; }
 
-input[type="submit"] { display: block; font-family: "aliquamregular", sans-serif; font-size: 1.2rem; color: white; letter-spacing: 0.1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #999999; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
+input[type="submit"] { display: block; font-family: "Arimo", sans-serif; font-size: 1.2rem; color: white; letter-spacing: 0.1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #999999; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
 
 footer { width: 100%; height: 100%; text-align: center; background-color: #14080a; }
 
