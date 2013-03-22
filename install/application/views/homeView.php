@@ -34,7 +34,7 @@
          
       <section id="rightContent" class="cf"> <!--right hand side content begins-->
         <article id="viewClasses" class="cf">
-          <section class="viewClassText"><a href="class.html">View Classes&nbsp;<span class="fontAwesome">&#xf101;</span></a></section>
+          <section class="viewClassText"><a href="class.html">View Classes</a></section>
         </article>
         
         <section id="zumbaContainer">
