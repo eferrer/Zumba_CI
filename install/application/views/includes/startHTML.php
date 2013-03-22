@@ -29,11 +29,11 @@
       
       <nav id="navBar"> <!--navigation bar begins-->
         <ul id="menu">
-          <li class="home"><a href="home">HOME</a></li>
-          <li class="about"><a href="about">ABOUT ME</a></li>
-          <li class="classes"><a href="classtimes">CLASSES</a></li>
-          <li class="gallery"><a href="gallery">VIDEO</a></li>
-          <li class="contact"><a href="contact">CONTACT ME</a></li>
+          <li class="home"><a href="home">Home</a></li>
+          <li class="about"><a href="about">About Me</a></li>
+          <li class="classes"><a href="classtimes">Classes</a></li>
+          <li class="gallery"><a href="gallery">Video</a></li>
+          <li class="contact"><a href="contact">Contact Me</a></li>
         </ul>
       </nav> <!--navigation bar ends--> 
     </header><!--logo and menu container ends-->
