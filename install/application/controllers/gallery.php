@@ -19,9 +19,14 @@ class Gallery extends CI_Controller {
      */
     public function index()
     {
-        $this->load->view('includes/startHTML');
-        $this->load->view('gallery');
-        $this->load->view('includes/endHTML');
+            $data=array();
+
+            $this->load->model('Cmsmodel');
+            $data['tagline'] = $this->Cmsmodel->getTaglineg();
+            
+            $this->load->view('includes/startHTML');
+            $this->load->view('galleryView', $data);
+            $this->load->view('includes/endHTML');
     }
 
 }

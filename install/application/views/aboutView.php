@@ -39,7 +39,7 @@
               echo nl2br($oSubHeading->H3);
         ?>
         </h3>
-        
+
         <ul>
           <li>I'm a busy mother of 4 children and originally from the USA. I would love to inspire many other women and mothers to give Zumba Fitness a go!<span class="reference"> Christina 1</span></li>
           <li>I'm a busy mother of 4 children and originally from the USA. I would love to inspire many other women and mothers to give Zumba Fitness a go!<span class="reference"> Christina 1</span></li>
@@ -48,7 +48,12 @@
       </section><!--testimonials ends-->
       
       <section><!--tagline begins-->
-        <h2 id="aboutTag">Its fun, its fitness,  its exercise in disguise!</h2>
+        <h2 id="aboutTag">
+              <?php 
+                    $oTagline = $tagline->row();
+                    echo nl2br($oTagline->tagline);
+              ?>
+        </h2>
       </section><!--tagline ends-->
       
     </section><!--main container ends-->

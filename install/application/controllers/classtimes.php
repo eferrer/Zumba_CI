@@ -45,6 +45,7 @@ class Classtimes extends CI_Controller {
             $data['content'] = $this->Cmsmodel->getContentByPageIDc();
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDc();
             $data['subHeading'] = $this->Cmsmodel->getSubHeadingByPageIDc();
+            $data['tagline'] = $this->Cmsmodel->getTaglinec();
             
             $this->load->view('includes/startHTML');
             $this->load->view('classesView', $data);
@@ -72,7 +73,4 @@ class Classtimes extends CI_Controller {
         // }
     //}
 
-}
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+} //end of class

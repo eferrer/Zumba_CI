@@ -11,7 +11,12 @@
               </section><!--video container ends-->
         
             <section><!--tagline begins-->
-                    <h2 id="galleryTag">Ditch the workout, join the party!</h2>
+                    <h2 id="galleryTag">
+                        <?php 
+                              $oTagline = $tagline->row();
+                              echo nl2br($oTagline->tagline);
+                          ?>
+                    </h2>
             </section><!--tagline ends-->
       
       </section><!--main container ends-->

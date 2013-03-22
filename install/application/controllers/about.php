@@ -45,6 +45,7 @@ class About extends CI_Controller {
             $data['content'] = $this->Cmsmodel->getContentByPageIDa();
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDa();
             $data['subHeading'] = $this->Cmsmodel->getSubHeadingByPageIDa();
+            $data['tagline'] = $this->Cmsmodel->getTaglinea();
             
             $this->load->view('includes/startHTML');
             $this->load->view('aboutView', $data);
@@ -72,7 +73,4 @@ class About extends CI_Controller {
         // }
     //}
 
-}
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+} // end of class

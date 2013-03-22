@@ -34,14 +34,14 @@
 
             // ==========return sub headings result as an array of all the rows==========
 
-            $aSubHeading = $subHeading->result_array();
+            // $aSubHeading = $subHeading->result_array();
 
-            print_r($aSubHeading[1]);
-            echo $aSubHeading[1]['H3'];
+            // print_r($aSubHeading[1]);
+            // echo $aSubHeading[1]['H3'];
 
-            echo "<pre>";
-            print_r($aSubHeading);
-            echo "</pre>";
+            // echo "<pre>";
+            // print_r($aSubHeading);
+            // echo "</pre>";
             
             ?>
 
@@ -191,7 +191,12 @@
         </section> <!--student information content ends--> 
 
         <section><!--tagline begins-->
-          <h2 id="classesTag">Don’t wait any longer - Party Yourself into Shape today!</h2>
+          <h2 id="classesTag">
+              <?php 
+                    $oTagline = $tagline->row();
+                    echo nl2br($oTagline->tagline);
+              ?>
+          </h2>
         </section><!--tagline ends-->
       
       </section><!--class info container ends-->

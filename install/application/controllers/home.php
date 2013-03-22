@@ -44,7 +44,8 @@ class Home extends CI_Controller {
             $this->load->model('Cmsmodel');
             $data['content'] = $this->Cmsmodel->getContentByPageIDh();
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDh();
-            
+            $data['tagline'] = $this->Cmsmodel->getTaglineh();
+
             $this->load->view('includes/startHTML');
             $this->load->view('homeView', $data);
             $this->load->view('includes/endHTML');
@@ -83,7 +84,4 @@ class Home extends CI_Controller {
         // }
     //}
 
-}
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+} // end of class

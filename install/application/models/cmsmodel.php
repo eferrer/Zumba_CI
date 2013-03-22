@@ -107,7 +107,7 @@ class Cmsmodel extends CI_Model{
 
     // 1. with the page ID hardcoded
 
-    // A. 1. c. about page testimonials sub heading
+    // A. 1. a. about page testimonials sub heading
 
     public function getSubHeadingByPageIDa()
     {
@@ -117,7 +117,7 @@ class Cmsmodel extends CI_Model{
                 
         return $this->db->query($sql);
     }
-    // C. 1. c. classes page sub headings
+    // C. 1. b. classes page sub headings
 
     public function getSubHeadingByPageIDc()
     {
@@ -130,11 +130,66 @@ class Cmsmodel extends CI_Model{
 
     //==============================================================
 
-    // D. GET H3 BY PAGE ID
+    // GET TAGLINES BY PAGE ID
 
     //==============================================================
 
-    // 1. with the page ID hardcoded
+     // 1. with the page ID hardcoded
+
+    // A. 1. a. home page tagline
+
+    public function getTaglineh()
+    {
+        $sql = "SELECT tagline
+                FROM tbPages
+                WHERE pageID=1";
+                
+        return $this->db->query($sql);
+    }
+
+    // A. 1. b. about page tagline
+
+    public function getTaglinea()
+    {
+        $sql = "SELECT tagline
+                FROM tbPages
+                WHERE pageID=2";
+                
+        return $this->db->query($sql);
+    }
+
+    // A. 1. c. classes page tagline
+
+    public function getTaglinec()
+    {
+        $sql = "SELECT tagline
+                FROM tbPages
+                WHERE pageID=3";
+                
+        return $this->db->query($sql);
+    }
+
+    // A. 1. d. gallery page tagline
+
+    public function getTaglineg()
+    {
+        $sql = "SELECT tagline
+                FROM tbPages
+                WHERE pageID=4";
+                
+        return $this->db->query($sql);
+    }
+
+    // A. 1. e. contact me page tagline
+
+    public function getTaglinecm()
+    {
+        $sql = "SELECT tagline
+                FROM tbPages
+                WHERE pageID=5";
+                
+        return $this->db->query($sql);
+    }
 
    
 
