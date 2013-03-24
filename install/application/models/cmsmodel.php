@@ -205,6 +205,14 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
 
+    public function getName()
+    {
+        $sql = "SELECT name
+                FROM tbTestimonials";
+                
+        return $this->db->query($sql);
+    }
+
    //==============================================================
 
     // GET NEEDS LIST

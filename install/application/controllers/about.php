@@ -46,6 +46,9 @@ class About extends CI_Controller {
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDa();
             $data['subHeading'] = $this->Cmsmodel->getSubHeadingByPageIDa();
             $data['tagline'] = $this->Cmsmodel->getTaglinea();
+
+            $data['testimonialDetails'] = $this->Cmsmodel->getTestimonials();
+            $data['name'] = $this->Cmsmodel->getName();
             
             $this->load->view('includes/startHTML');
             $this->load->view('aboutView', $data);
