@@ -205,7 +205,27 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
 
+    //==============================================================
 
+    // GET LIST OF CLASSTIMES
+
+    //==============================================================
+
+    public function getClassDay()
+    {
+        $sql = "SELECT day
+                FROM tbClasses";
+
+        return $this->db->query($sql);
+    }
+
+    public function getClassTime()
+    {
+        $sql = "SELECT time
+                FROM tbClasses";
+
+        return $this->db->query($sql);
+    }
 
 
 

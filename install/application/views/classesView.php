@@ -56,9 +56,19 @@
             <section id="classSchedule"> <!--class schedule content begins-->    
                   
                   <section class="classDetails"><!--class details begins-->
+
+                     <?php
+                      $aDay= $day->result_array();
+                      $aTime= $time->result_array();
+
+                      // echo "<pre>";
+                      // print_r($aDay);
+                      // echo "</pre>";
+                      ?>
+
                           <ul id="classTimes">
-                            <li class="day">MONDAY</li>
-                            <li class="time">7 - 8 PM</li>
+                            <li class="day"><!-- MONDAY --><?php echo $aDay[0]['day']; ?></li>
+                            <li class="time"><!-- 7 - 8 PM --><?php echo $aTime[0]['time']; ?></li>
                             <li class="place">Rangitoto College</li>
                             <li class="address">564 East Coast Road, Mairangi Bay</li>
                           </ul>
@@ -73,8 +83,8 @@
 
                 <section class="classDetails"><!--class details begins-->
                         <ul id="classTimes">
-                          <li class="day">TUESDAY</li>
-                          <li class="time">9.30 - 10.30 AM</li>
+                          <li class="day"><!-- TUESDAY --><?php echo $aDay[1]['day']; ?></li>
+                          <li class="time"><!-- 9.30 - 10.30 AM --><?php echo $aTime[1]['time']; ?></li>
                           <li class="place">Torbay Community Hall</li>
                           <li class="address">35 Watea Rd, Torbay</li>  
                         </ul>
