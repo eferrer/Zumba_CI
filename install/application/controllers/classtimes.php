@@ -49,6 +49,8 @@ class Classtimes extends CI_Controller {
             $data['needsDetails'] = $this->Cmsmodel->getNeedsList();
             $data['day'] = $this->Cmsmodel->getClassDay();
             $data['time'] = $this->Cmsmodel->getClassTime();
+            $data['place'] = $this->Cmsmodel->getClassPlace();
+            $data['address'] = $this->Cmsmodel->getClassAddress();
 
             $this->load->view('includes/startHTML');
             $this->load->view('classesView', $data);

@@ -191,6 +191,20 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
 
+    //==============================================================
+
+    // GET LIST OF TESTIMONIALS FOR ABOUT PAGE
+
+    //==============================================================
+
+    public function getTestimonials()
+    {
+        $sql = "SELECT testimonialDetails
+                FROM tbTestimonials";
+                
+        return $this->db->query($sql);
+    }
+
    //==============================================================
 
     // GET NEEDS LIST
@@ -222,6 +236,22 @@ class Cmsmodel extends CI_Model{
     public function getClassTime()
     {
         $sql = "SELECT time
+                FROM tbClasses";
+
+        return $this->db->query($sql);
+    }
+
+    public function getClassPlace()
+    {
+        $sql = "SELECT place
+                FROM tbClasses";
+
+        return $this->db->query($sql);
+    }
+
+    public function getClassAddress()
+    {
+        $sql = "SELECT address
                 FROM tbClasses";
 
         return $this->db->query($sql);
