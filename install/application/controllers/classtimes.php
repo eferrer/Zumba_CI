@@ -46,6 +46,7 @@ class Classtimes extends CI_Controller {
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDc();
             $data['subHeading'] = $this->Cmsmodel->getSubHeadingByPageIDc();
             $data['tagline'] = $this->Cmsmodel->getTaglinec();
+
             $data['needsDetails'] = $this->Cmsmodel->getNeedsList();
             $data['day'] = $this->Cmsmodel->getClassDay();
             $data['time'] = $this->Cmsmodel->getClassTime();
