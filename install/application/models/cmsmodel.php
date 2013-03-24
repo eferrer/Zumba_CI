@@ -193,6 +193,21 @@ class Cmsmodel extends CI_Model{
 
     //==============================================================
 
+    // GET PROMOTIONAL LINE
+
+    //==============================================================
+
+    public function getPromotion()
+    {
+        $sql = "SELECT promoDetails
+                FROM tbPromo";
+                
+        return $this->db->query($sql);
+    }
+
+
+    //==============================================================
+
     // GET LIST OF TESTIMONIALS FOR ABOUT PAGE
 
     //==============================================================

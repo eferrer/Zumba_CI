@@ -46,6 +46,10 @@
           $aTestimonialDetails= $testimonialDetails->result_array();
           $aName= $name->result_array();
           
+          // echo "<pre>";
+          // print_r($aTestimonialDetails);
+          // echo "</pre>";
+
           ?>
           
           <li><!-- I'm a busy mother of 4 children and originally from the USA. I would love to inspire many other women and mothers to give Zumba Fitness a go! --><?php echo $aTestimonialDetails[0]['testimonialDetails']; ?><span class="reference"> <!-- Christina 1 --><?php echo $aName[0]['name']; ?></span></li>
@@ -67,7 +71,10 @@
     </section><!--main container ends-->
     
     <section id="promo" class="promoAbout"><!--promotional tag begins-->
-          <p>Mention this website and receive <span class="prmsgAbout">50%</span> off all classes in your first week OR bring a friend for <span class="prmsgAbout">FREE!</span></p>
+           <p><!--Mention this website and receive <span class="prmsgAbout">50%</span> off all classes in your first week OR bring a friend for <span class="prmsgAbout">FREE!</span>--> <?php 
+              $oPromoDetails = $promoDetails->row();
+              echo nl2br($oPromoDetails->promoDetails);
+        ?></p>
     </section><!--promotional tag begins-->
     
   </div> <!--wrapper ends-->

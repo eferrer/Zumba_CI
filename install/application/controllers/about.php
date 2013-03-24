@@ -49,6 +49,8 @@ class About extends CI_Controller {
 
             $data['testimonialDetails'] = $this->Cmsmodel->getTestimonials();
             $data['name'] = $this->Cmsmodel->getName();
+
+            $data['promoDetails'] = $this->Cmsmodel->getPromotion();
             
             $this->load->view('includes/startHTML');
             $this->load->view('aboutView', $data);
