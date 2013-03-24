@@ -191,8 +191,19 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
 
-   
+   //==============================================================
 
+    // GET NEEDS LIST
+
+    //==============================================================
+
+    public function getNeedsList()
+    {
+        $sql = "SELECT needsDetails
+                FROM tbNeeds";
+                
+        return $this->db->query($sql);
+    }
 
 
 

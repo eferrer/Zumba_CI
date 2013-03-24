@@ -183,10 +183,20 @@
               ?>
           </h3>
 
-          <ul class="needs">
-            <li>Plenty of water</li>
-            <li>A towel</li>
-            <li>Proper footwear. Ideally, non-tread shes for easier pivoting and movement</li>
+            <?php
+            $aNeedsDetails= $needsDetails->result_array();
+
+            // echo "<pre>";
+            // print_r($aNeedsDetails);
+            // echo "</pre>";
+            ?>
+
+            <ul class="needs">
+            <li><!-- Plenty of water --><?php echo $aNeedsDetails[0]['needsDetails']; ?></li>
+            <li><!-- A towel --><?php echo $aNeedsDetails[1]['needsDetails']; ?></li>
+            <li><!-- Proper footwear. Ideally, non-tread shoooes for easier pivoting and movement --><?php echo $aNeedsDetails[2]['needsDetails']; ?></li>
+
+            
           </ul>
         </section> <!--student information content ends--> 
 
