@@ -163,7 +163,7 @@
               $oPromoDetails = $promoDetails->row();
               echo nl2br($oPromoDetails->promoDetails);
         ?></p>
-      </section><!--promotional tag begins-->
+      </section><!--promotional tag ends-->
       
       <section id="mainContainer" class="cf"><!--class info container begins-->
         

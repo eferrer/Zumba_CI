@@ -34,14 +34,20 @@
           </form>
       
         <section><!--tagline begins-->
-          <h2 id="contactTag">Just lose yourself in the music</h2>
+          <h2 id="classesTag">
+              <?php 
+                    $oTagline = $tagline->row();
+                    echo nl2br($oTagline->tagline);
+              ?>
+          </h2>
         </section><!--tagline ends-->
-      </section> <!--content ends--> 
-    </section><!--main container ends-->
     
     <section id="promo" class="promoContact"><!--promotional tag begins-->
-          <p>Mention this website and receive <span class="prmsgContact">50%</span> off all classes in your first week OR bring a friend for <span class="prmsgContact">FREE!</span></p>
-    </section><!--promotional tag begins-->
+           <p><!--Mention this website and receive <span class="prmsgAbout">50%</span> off all classes in your first week OR bring a friend for <span class="prmsgAbout">FREE!</span>--> <?php 
+              $oPromoDetails = $promoDetails->row();
+              echo nl2br($oPromoDetails->promoDetails);
+        ?></p>
+    </section><!--promotional tag ends-->
     
   </div> <!--wrapper ends-->
     

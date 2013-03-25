@@ -75,7 +75,7 @@
               $oPromoDetails = $promoDetails->row();
               echo nl2br($oPromoDetails->promoDetails);
         ?></p>
-    </section><!--promotional tag begins-->
+    </section><!--promotional tag ends-->
     
   </div> <!--wrapper ends-->
     
