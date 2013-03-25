@@ -24,6 +24,7 @@ class Contact extends CI_Controller {
             $this->load->model('Cmsmodel');
             
             // GET CONTENT, HEADINGS AND TAGLINES
+            $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDcm();
             $data['tagline'] = $this->Cmsmodel->getTaglinecm();
             
             // GET PROMOTIONAL DETAILS

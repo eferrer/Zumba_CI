@@ -88,13 +88,24 @@ class Cmsmodel extends CI_Model{
         return $this->db->query($sql);
     }
 
-    // B. 1. c. classes page main headings
+    // B. 1. c. classes page main heading
 
     public function getMainHeadingByPageIDc()
     {
         $sql = "SELECT H1
                 FROM tbContent
                 WHERE pageID=3";
+                
+        return $this->db->query($sql);
+    }
+    
+    // B. 1. d. contact me page main heading
+
+    public function getMainHeadingByPageIDcm()
+    {
+        $sql = "SELECT H1
+                FROM tbContent
+                WHERE pageID=5";
                 
         return $this->db->query($sql);
     }
