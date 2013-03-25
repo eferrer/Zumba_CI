@@ -1,9 +1,240 @@
 /* STEVE'S BOILERPLATE CSS */
-article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline;zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em}pre{white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}dd{margin:0 0 0 40px}menu,ol,ul, li{padding:0 0 0 0px}nav ul,nav ol, li{list-style:none;list-style-image:none}a {text-decoration: none;}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;white-space:normal;margin-left:-7px;padding:0}button,input,select,textarea{font-size:100%;vertical-align:middle;margin:0}button,input{line-height:normal}button,html input[type=button],/* 1 */ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;overflow:visible}button[disabled],input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;height:13px;width:13px;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}body,figure,form{margin:0}p,pre,dl,menu,ol,ul{margin:1em 0}
-.cf:before,.cf:after {content: " "; display: table;}.cf:after {clear: both;}.cf {*zoom: 1;}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {display: block;}audio, canvas, video {display: inline;
+  zoom: 1;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+h5 {
+  font-size: .83em;
+  margin: 1.67em 0;
+}
+
+h6 {
+  font-size: .75em;
+  margin: 2.33em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 1em 40px;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  _font-family: "courier new", monospace;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: none;
+}
+
+q:before, q:after {
+  content: none;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+menu, ol, ul, li {
+  padding: 0 0 0 0px;
+  list-style: none;
+  list-style-image: none;
+}
+
+nav ul, nav ol, li {
+  list-style: none;
+  list-style-image: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  white-space: normal;
+  margin-left: -7px;
+  padding: 0;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  vertical-align: middle;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  overflow: visible;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  height: 13px;
+  width: 13px;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure, form {
+  margin: 0;
+}
+
+p, pre, dl, menu, ol, ul {
+  margin: 1em 0;
+}
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
 
 /* ===== == = === Base Styles === = == ===== */
-
 body {
   font-family: "Didact Gothic", sans-serif;
   background-color: #14080a;
@@ -25,10 +256,6 @@ body {
 #mainContainer {
   margin: auto;
   height: 100%;
-
-  -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
 }
 
 h1 {
@@ -63,6 +290,10 @@ li {
   font-family: "Didact Gothic", sans-serif;
 }
 
+.fontAwesome {
+  font-family: 'FontAwesome';
+}
+
 header {
   width: 100%;
   height: 100%;
@@ -87,10 +318,6 @@ header {
   color: white;
   background-color: #14080a;
   outline: 3px solid #14080a;
-  -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-
   outline-offset: -19px;
   transition: all 0.6s linear;
   -moz-transition: all 0.6s linear;
@@ -133,6 +360,7 @@ header {
 #navBar li a:hover,
 #navBar li a:focus,
 #navBar li a:active {
+  font-weight: bolder;
   color: #14080a;
   outline: 5px solid #14080a;
   outline-offset: -19px;
@@ -141,42 +369,6 @@ header {
 #danceTypes p {
   color: white;
 }
-
- .homeHeading {
-    border-bottom: 5px solid #a8e232;
-  }
-
-    .aboutHeading {
-    border-bottom: 5px solid #ec31b1;
-  }
-
-  .classHeading {
-    border-bottom: 5px solid #1fe0fc;
-  }
-
-  .contactHeading {
-    border-bottom: 5px solid #9f4ac8;
-  }
-
-  #homeTag {
-    color: #a8e232;
-  }
-
-  #aboutTag {
-    color: #ec31b1;  
-  }
-
-  #classesTag {
-    color: #1fe0fc;
-  }
-
-  #galleryTag {
-    color: #f7931e;
-  }
-
-  #contactTag {
-    color: #9f4ac8;
-  }
 
 .zumbaIs {
   color: #a8e232;
@@ -205,7 +397,6 @@ header {
   outline: 3px solid #14080a;
   outline-offset: -20px;
 }
-
 #promo p {
   color: white;
   display: block;
@@ -240,7 +431,6 @@ header {
   outline: 2px solid #a8e232;
   outline-offset: -25px;
 }
-
 .viewClassText a:hover {
   color: #a8e232;
   background-color: #14080a;
@@ -323,10 +513,6 @@ footer {
   background-image: url("../images/full/zumbatomic.png");
   background-repeat: no-repeat;
 }
-
-.social {
-    border-top: 2px solid #f7931e;
-  }
 
 .social li a {
   color: #f7931e;
@@ -485,7 +671,6 @@ footer {
 /**********************************************************************************************************/
 
 @media screen and (max-width: 30em) {
-
   #wrapper {
     height: 100%;
     padding-bottom: 0rem;
@@ -531,6 +716,9 @@ footer {
     height: 2rem;
     line-height: 2rem;
     margin-bottom: 1rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
   }
 
   #danceTypes {
@@ -544,29 +732,18 @@ footer {
     margin-top: 2rem;
     margin-bottom: 3rem;
     background: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
   }
 
-  .homeHeading, 
-  .aboutHeading,
-  .classHeading,
-  .contactHeading {
+  .homeHeading {
     display: block;
     width: 95%;
     margin-left: 5%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 1.2rem;
-  }
-
-  h3 {
-    display: inline;
-    margin-top: 2rem;
-    padding-bottom: 0.8rem;
-    font-size: 1rem;
-  }
-
-  p{
-    font-size: :0.9rem;
+    border-bottom: 5px solid #a8e232;
   }
 
   #content {
@@ -589,37 +766,14 @@ footer {
     display: none;
   }
 
-  #homeTag,
-  #aboutTag, 
-  #classesTag,
-  #galleryTag,
-  #contactTag
-   {
+  #homeTag {
     width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
+    color: #a8e232;
     font-size: 1.5rem;
-  }
-
-  #promo {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
-
-  .promoAbout, 
-  .promoClasses,
-  .promoContact {
-    width: 65%;
-    margin: auto;
-  }
-
-  .promoAbout, 
-  .promoClasses,
-  .promoContact p {
-    font-size: 2rem;
-    line-height: 2rem;
   }
 
   footer {
@@ -651,8 +805,8 @@ footer {
     width: 80%;
     margin: auto;
     margin-top: 2rem;
+    border-top: 2px solid #f7931e;
   }
-
   .social li {
     display: inline-block;
     width: 20%;
@@ -668,23 +822,31 @@ footer {
     height: 4rem;
     margin-top: -1rem;
   }
-
   #copyright p {
     font-size: 0.8rem;
     padding-top: 1rem;
   }
 
-  /* ===== == = === HOME PAGE === = == ===== */
   /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
+  .aboutHeading {
+    display: block;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #ec31b1;
+  }
 
-
-  /* ===== == = === ABOUT ME PAGE === = == ===== */
-  /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
-
-   #about {
+  #about {
     width: 90%;
     height: 100%;
     margin: auto;
+  }
+
+  .info {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2rem;
   }
 
   #testimonials {
@@ -699,11 +861,35 @@ footer {
     color: #191919;
   }
   #testimonials h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
     border-bottom: 1px solid #ec31b1;
   }
 
+  #aboutTag {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #ec31b1;
+    font-size: 1.5rem;
+  }
+
+  #promo {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
   .promoAbout {
+    width: 65%;
+    margin: auto;
     border: 25px solid #ec31b1;
+  }
+  .promoAbout p {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .prmsgAbout {
@@ -714,8 +900,15 @@ footer {
     display: none;
   }
 
-  /* ===== == = === CLASSES PAGE === = == ===== */
   /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
+  .classHeading {
+    display: block;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #1fe0fc;
+  }
 
   #classSchedule,
   #priceSchedule,
@@ -725,8 +918,24 @@ footer {
     margin: auto;
   }
 
+  #classesTag {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #1fe0fc;
+    font-size: 1.5rem;
+  }
+
   .promoClasses {
+    width: 65%;
+    margin: auto;
     border: 25px solid #1fe0fc;
+  }
+  .promoClasses p {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   .prmsgClasses {
@@ -785,6 +994,9 @@ footer {
   }
 
   .classPrice h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
     border-bottom: 1px solid #1fe0fc;
   }
 
@@ -794,6 +1006,9 @@ footer {
   }
 
   #studentInfo h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
     border-bottom: 1px solid #1fe0fc;
   }
 
@@ -816,9 +1031,7 @@ footer {
     color: #191919;
   }
 
-  /* ===== == = === GALLERY PAGE === = == ===== */
   /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
-
   #videoContainer {
     width: 90%;
     height: 100%;
@@ -849,8 +1062,25 @@ footer {
     height: 90%;
   }
 
-  /* ===== == = === CONTACT ME PAGE === = == ===== */
+  #galleryTag {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #f7931e;
+    font-size: 1.5rem;
+  }
+
   /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
+  .contactHeading {
+    display: block;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #9f4ac8;
+  }
 
   #contact {
     width: 90%;
@@ -893,17 +1123,33 @@ footer {
   }
 
   .promoContact {
+    width: 65%;
+    margin: auto;
     border: 25px solid #9f4ac8;
   }
- 
+  .promoContact p {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
   .prmsgContact {
     color: #9f4ac8;
+  }
+
+  #contactTag {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #9f4ac8;
+    font-size: 1.5rem;
   }
 }
 
 /**********************************************************************************************************/
 
-/* ===== == = === 481 px - 800 px Landscape smartphone and portrait tablet=== = == ===== */
+/* ===== == = === 481 px - 800 px === = == ===== */
 
 /**********************************************************************************************************/
 
@@ -919,7 +1165,7 @@ footer {
     width: 480px;
     max-width: 100%;
     height: 124px;
-    /*margin: auto;*/
+    margin: auto;
   }
 
   #mainImage {
@@ -947,13 +1193,15 @@ footer {
   #navBar li {
     display: block !important;
   }
-
   #navBar li a {
     display: block;
     font-size: 1rem;
     height: 2rem;
     line-height: 2rem;
     margin-bottom: 1rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
   }
 
   #danceTypes {
@@ -967,25 +1215,18 @@ footer {
     margin-top: 2rem;
     margin-bottom: 3rem;
     background: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
   }
 
-  .homeHeading, 
-  .aboutHeading,
-  .classHeading,
-  .contactHeading {
+  .homeHeading {
     display: block;
     width: 95%;
     margin-left: 5%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    display: inline;
-    margin-top: 2rem;
-    padding-bottom: 0.8rem;
-    font-size: 1.2rem;
+    border-bottom: 5px solid #a8e232;
   }
 
   #content {
@@ -1024,42 +1265,18 @@ footer {
     font-size: 0rem;
   }
 
-  #homeTag,
-  #aboutTag, 
-  #classesTag,
-  #galleryTag,
-  #contactTag
-   {
+  #homeTag {
     width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    /*color: #a8e232;*/
+    color: #a8e232;
     font-size: 1.5rem;
   }
 
-  #promo {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
-
-  .promoAbout, 
-  .promoClasses,
-  .promoContact {
-    width: 65%;
-    margin: auto;
-  }
-
-  .promoAbout, 
-  .promoClasses,
-  .promoContact p {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-
   footer {
-    /*margin-top: -1rem;*/
+    margin-top: -1rem;
     padding-top: 1rem;
   }
 
@@ -1110,35 +1327,43 @@ footer {
     padding-top: 1rem;
   }
 
-/* ===== == = === HOME PAGE === = == ===== */
+  /* Target landscape smartphones, portrait tablets, narrow desktops
   /* ===== == = === 481 px - 800 px === = == ===== */
+  .aboutHeading {
+    display: block;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #ec31b1;
+  }
 
-
-/* ===== == = === ABOUT ME PAGE === = == ===== */
-  /* ===== == = === 481 px - 800 px === = == ===== */
-
-   #about {
+  #about {
     width: 90%;
     height: 100%;
     margin: auto;
   }
 
-  #testimonials{
-    width: 90%;
-    height: 100%;
-    margin: auto;
+  .info {
+    width: 100%;
+    margin-bottom: 2rem;
   }
 
+  #testimonials {
+    width: 90%;
+    margin: auto;
+  }
   #testimonials ul {
     margin-top: 2rem;
   }
-
   #testimonials li {
     margin-bottom: 1rem;
     color: #191919;
   }
-
   #testimonials h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
     border-bottom: 1px solid #ec31b1;
   }
 
@@ -1152,7 +1377,16 @@ footer {
     font-size: 1.5rem;
   }
 
+  #promo {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
   .promoAbout {
+    width: 65%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     border: 25px solid #ec31b1;
   }
   .promoAbout p {
@@ -1168,8 +1402,15 @@ footer {
     display: none;
   }
 
-  /* ===== == = === CLASSES PAGE=== = == ===== */
   /* ===== == = === 481 px - 800 px === = == ===== */
+  .classHeading {
+    display: block;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #1fe0fc;
+  }
 
   #classSchedule,
   #priceSchedule,
@@ -1179,10 +1420,25 @@ footer {
     margin: auto;
   }
 
-  .promoClasses {
-    border: 25px solid #1fe0fc;
+  #classesTag {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #1fe0fc;
+    font-size: 1.5rem;
   }
 
+  .promoClasses {
+    width: 65%;
+    margin: auto;
+    border: 25px solid #1fe0fc;
+  }
+  .promoClasses p {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
 
   .prmsgClasses {
     color: #1fe0fc;
@@ -1240,6 +1496,9 @@ footer {
   }
 
   .classPrice h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
     border-bottom: 1px solid #1fe0fc;
   }
 
@@ -1249,6 +1508,9 @@ footer {
   }
 
   #studentInfo h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
     border-bottom: 1px solid #1fe0fc;
   }
 
@@ -1271,10 +1533,8 @@ footer {
     color: #191919;
   }
 
-
-  /* ===== == = === GALLERY PAGE=== = == ===== */
+  /* Target landscape smartphones, portrait tablets, narrow desktops
   /* ===== == = === 481 px - 800 px === = == ===== */
-
   #videoContainer {
     width: 90%;
     height: 100%;
@@ -1305,10 +1565,26 @@ footer {
     height: 90%;
   }
 
-  /* ===== == = === CONTACT ME PAGE=== = == ===== */
-  /* ===== == = === 481 px - 800 px === = == ===== */
+  #galleryTag {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #f7931e;
+    font-size: 1.5rem;
+  }
 
-  
+  /* Target landscape smartphones, portrait tablets, narrow desktops
+  /* ===== == = === 481 px - 800 px === = == ===== */
+  .contactHeading {
+    display: block;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #9f4ac8;
+  }
 
   #contact {
     width: 90%;
@@ -1351,20 +1627,33 @@ footer {
   }
 
   .promoContact {
-   
+    width: 65%;
+    margin: auto;
     border: 25px solid #9f4ac8;
   }
- 
+  .promoContact p {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
 
   .prmsgContact {
     color: #9f4ac8;
   }
 
+  #contactTag {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #9f4ac8;
+    font-size: 1.5rem;
+  }
 }
 
 /**********************************************************************************************************/
 
-/* Target landscape tablets and small desktops 801 - 1280 */
+/* 801 - 1280 */
 
 /**********************************************************************************************************/
 
@@ -1433,11 +1722,24 @@ footer {
   }
 
   #mainContainer {
-    max-width: 80%;
+    max-width: 100%;
     height: 100%;
     margin-top: 3rem;
     background-color: #f7f7f7;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     border: 60px solid white;
+  }
+
+  .homeHeading {
+    display: block;
+    width: 90%;
+    margin-top: 6rem;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #a8e232;
   }
 
   #content {
@@ -1702,8 +2004,15 @@ footer {
     background: rgba(0, 0, 0, 0.8);
   }
 
-  /* ===== == = ===ABOUT ME PAGE=== = == ===== */
-  /* ===== == = === 801px  - 1280 px === = == ===== */
+  /* 801 - 1280 */
+  .aboutHeading {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #ec31b1;
+  }
 
   #about {
     float: left;
@@ -1784,10 +2093,8 @@ footer {
     color: #ec31b1;
   }
 
-  /* ===== == = ===CLASSES PAGE=== = == ===== */
-  /* ===== == = === 801px  - 1280 px === = == ===== */
-  
-  /*.classHeading {
+  /* 801 - 1280 */
+  .classHeading {
     display: block;
     width: 90%;
     margin-left: 5%;
@@ -1928,12 +2235,10 @@ footer {
     list-style-type: disc;
     list-style-position: inside;
     color: #191919;
-  }*/
+  }
 
-  /* ===== == = ===GALLERY PAGE=== = == ===== */
-  /* ===== == = === 801px  - 1280 px === = == ===== */
-
-  /*#videoContainer {
+  /* 801 - 1280 */
+  #videoContainer {
     width: 90%;
     height: 100%;
     margin: auto;
@@ -1972,12 +2277,10 @@ footer {
     padding-bottom: 2rem;
     color: #f7931e;
     font-size: 2rem;
-  }*/
+  }
 
-  /* ===== == = ===CONTACT ME PAGE=== = == ===== */
-  /* ===== == = === 801px  - 1280 px === = == ===== */
-
-  /*#mainContainer {
+  /* 801 - 1280 */
+  #mainContainer {
     background-image: url("../assets/images/whiteWall.png");
     max-width: 80%;
     height: 100%;
@@ -2060,15 +2363,14 @@ footer {
   .prmsgContact {
     color: #9f4ac8;
   }
-}*/
+}
+/**********************************************************************************************************/
+
+/* ===== == = === 1280 px PLUS=== = == ===== */
 
 /**********************************************************************************************************/
 
-/* ===== == = === Target large desktops 1280 px PLUS=== = == ===== */
-
-/**********************************************************************************************************/
-
-/*@media screen and (min-width: 80.1em) {
+@media screen and (min-width: 80.1em) {
   #logo {
     background-image: url("../images/full/logo800.gif");
     background-repeat: no-repeat;
@@ -2316,7 +2618,7 @@ footer {
     display: block;
     background: #fff;
     /* Fix for IE6-9 */
-    /*opacity: 0;
+    opacity: 0;
     filter: alpha(opacity=1);
     width: 48%;
     text-indent: -9999px;
@@ -2401,12 +2703,10 @@ footer {
   .large-btns_here a {
     background: #222;
     background: rgba(0, 0, 0, 0.8);
-  }*/
+  }
 
-  /* ===== == = ===ABOUT ME PAGE=== = == ===== */
-  /* ===== == = === 1280 px plus=== = == ===== */
-  
- /* .aboutHeading {
+  /* ===== == = === 801 px - 1280 px === = == ===== */
+  .aboutHeading {
     display: block;
     width: 90%;
     margin-left: 5%;
@@ -2497,12 +2797,10 @@ footer {
 
   .prmsgAbout {
     color: #ec31b1;
-  }*/
+  }
 
-  /* ===== == = ===CLASSES PAGE=== = == ===== */
-  /* ===== == = === 1280 px plus=== = == ===== */
-
- /* .classHeading {
+  /* ===== == = === 801 px - 1280 px === = == ===== */
+  .classHeading {
     display: block;
     width: 90%;
     margin-left: 5%;
@@ -2643,12 +2941,10 @@ footer {
     list-style-type: disc;
     list-style-position: inside;
     color: #191919;
-  }*/
+  }
 
-  /* ===== == = ===GALLERY PAGE=== = == ===== */
-  /* ===== == = === 1280 px plus=== = == ===== */
-
-  /*#videoContainer {
+  /* ===== == = === 801 px - 1280 px === = == ===== */
+  #videoContainer {
     width: 90%;
     height: 100%;
     margin: auto;
@@ -2687,12 +2983,10 @@ footer {
     padding-bottom: 2rem;
     color: #f7931e;
     font-size: 2rem;
-  }*/
+  }
 
-  /* ===== == = ===CONTACT ME PAGE=== = == ===== */
-  /* ===== == = === 1280 px plus=== = == ===== */
-
-  /*#mainContainer {
+  /* ===== == = === 801 px - 1280 px === = == ===== */
+  #mainContainer {
     background-image: url("../assets/images/whiteWall.png");
     max-width: 80%;
     height: 100%;
@@ -2775,4 +3069,4 @@ footer {
   .prmsgContact {
     color: #9f4ac8;
   }
-}*/
+}
