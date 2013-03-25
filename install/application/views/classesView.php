@@ -158,8 +158,12 @@
       </section><!--price schedule container ends-->
       
       <section id="promo" class="promoClasses"><!--promotional tag begins-->
-          <p>Mention this website and receive <span class="prmsgClasses">50%</span> off all classes in your first week OR bring a friend for <span class="prmsgClasses">FREE!</span></p>
-    </section><!--promotional tag begins-->
+          <p><!--Mention this website and receive <span class="prmsgAbout">50%</span> off all classes in your first week OR bring a friend for <span class="prmsgAbout">FREE!</span>--> 
+            <?php 
+              $oPromoDetails = $promoDetails->row();
+              echo nl2br($oPromoDetails->promoDetails);
+        ?></p>
+      </section><!--promotional tag begins-->
       
       <section id="mainContainer" class="cf"><!--class info container begins-->
         

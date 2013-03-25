@@ -42,16 +42,24 @@ class Classtimes extends CI_Controller {
             $data=array();
 
             $this->load->model('Cmsmodel');
+            
+            // GET CONTENT, HEADINGS AND TAGLINES
             $data['content'] = $this->Cmsmodel->getContentByPageIDc();
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDc();
             $data['subHeading'] = $this->Cmsmodel->getSubHeadingByPageIDc();
             $data['tagline'] = $this->Cmsmodel->getTaglinec();
-
-            $data['needsDetails'] = $this->Cmsmodel->getNeedsList();
+            
+            // GET CLASS DETAILS
             $data['day'] = $this->Cmsmodel->getClassDay();
             $data['time'] = $this->Cmsmodel->getClassTime();
             $data['place'] = $this->Cmsmodel->getClassPlace();
             $data['address'] = $this->Cmsmodel->getClassAddress();
+            
+            // GET LIST OF WHAT IS NEEDED FOR CLASS
+            $data['needsDetails'] = $this->Cmsmodel->getNeedsList();
+            
+            // GET PROMOTIONAL DETAILS
+            $data['promoDetails'] = $this->Cmsmodel->getPromotion();
 
             $this->load->view('includes/startHTML');
             $this->load->view('classesView', $data);

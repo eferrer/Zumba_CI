@@ -42,14 +42,18 @@ class About extends CI_Controller {
             $data=array();
 
             $this->load->model('Cmsmodel');
+            
+            // GET CONTENT, HEADINGS AND TAGLINES
             $data['content'] = $this->Cmsmodel->getContentByPageIDa();
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDa();
             $data['subHeading'] = $this->Cmsmodel->getSubHeadingByPageIDa();
             $data['tagline'] = $this->Cmsmodel->getTaglinea();
-
+            
+            // GET LIST OF TESTIMONIALS FOR ABOUT PAGE 
             $data['testimonialDetails'] = $this->Cmsmodel->getTestimonials();
             $data['name'] = $this->Cmsmodel->getName();
-
+            
+            // GET PROMOTIONAL DETAILS
             $data['promoDetails'] = $this->Cmsmodel->getPromotion();
             
             $this->load->view('includes/startHTML');
