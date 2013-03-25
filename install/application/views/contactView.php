@@ -39,7 +39,7 @@
           </form>
       
         <section><!--tagline begins-->
-          <h2 id="classesTag">
+          <h2 id="contactTag">
               <?php 
                     $oTagline = $tagline->row();
                     echo nl2br($oTagline->tagline);
