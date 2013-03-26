@@ -36,13 +36,24 @@ class Home extends CI_Controller {
     //==============================================================
     // Test 2. Test with the page ID hardcoded
     
+// public function makeMenu()
+//     {
+//             $data=array();
 
+//             $this->load->model('Cmsmodel');
+//             $data['home'] = $this->Cmsmodel->getFileNameh();
+           
+//             $this->load->view('includes/startHTML', $data);
+            
+//     }
+    
     public function index()
     {
             $data=array();
 
             $this->load->model('Cmsmodel');
-            $data['content'] = $this->Cmsmodel->getContentByPageIDh();
+            // $data['content'] = $this->Cmsmodel->getContentByPageIDh();
+            $data['content'] = $this->Cmsmodel->getContentByPageID();
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDh();
             $data['tagline'] = $this->Cmsmodel->getTaglineh();
 
@@ -50,6 +61,8 @@ class Home extends CI_Controller {
             $this->load->view('homeView', $data);
             $this->load->view('includes/endHTML');
     }
+    
+    
 
     // public function indexmh()
     // {

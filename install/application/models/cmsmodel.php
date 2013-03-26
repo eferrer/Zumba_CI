@@ -26,11 +26,22 @@ class Cmsmodel extends CI_Model{
     
      // A. 1. a. home page content
 
-    public function getContentByPageIDh()
+    // public function getContentByPageIDh()
+    // {
+    //     $sql = "SELECT contentDetails
+    //             FROM tbContent
+    //             WHERE pageID=1";
+                
+    //     return $this->db->query($sql);
+    // }
+    
+    public function getContentByPageID()
     {
+        $pageID = $this->uri->segment(3, 0);
+        
         $sql = "SELECT contentDetails
                 FROM tbContent
-                WHERE pageID=1";
+                WHERE pageID=$pageID";
                 
         return $this->db->query($sql);
     }
@@ -57,6 +68,8 @@ class Cmsmodel extends CI_Model{
                 
         return $this->db->query($sql);
     }
+    
+    //$pageID = $this->uri->segment(3, 0);
    
      //==============================================================
 
@@ -141,7 +154,7 @@ class Cmsmodel extends CI_Model{
 
     //==============================================================
 
-    // GET TAGLINES BY PAGE ID
+    // D. GET TAGLINES BY PAGE ID
 
     //==============================================================
 
@@ -196,6 +209,69 @@ class Cmsmodel extends CI_Model{
     public function getTaglinecm()
     {
         $sql = "SELECT tagline
+                FROM tbPages
+                WHERE pageID=5";
+                
+        return $this->db->query($sql);
+    }
+    
+    //==============================================================
+
+    // E. GET MENU BUTTONS (PAGE NAME) BY PAGE ID
+
+    //==============================================================
+
+     // 1. with the page ID hardcoded
+
+    // A. 1. a. home menu button
+
+    public function getFileNameh()
+    {
+        $sql = "SELECT fileName
+                FROM tbPages
+                WHERE pageID=1";
+                
+        return $this->db->query($sql);
+    }
+
+    // A. 1. b. about menu button
+
+    public function getFileNamea()
+    {
+        $sql = "SELECT fileName
+                FROM tbPages
+                WHERE pageID=2";
+                
+        return $this->db->query($sql);
+    }
+
+    // A. 1. c. classes menu button
+
+    public function getFileNamec()
+    {
+        $sql = "SELECT fileName
+                FROM tbPages
+                WHERE pageID=3";
+                
+        return $this->db->query($sql);
+    }
+
+    // A. 1. d. gallery menu button
+
+    public function getFileNameg()
+    {
+        $sql = "SELECT fileName
+                FROM tbPages
+                WHERE pageID=4";
+                
+        return $this->db->query($sql);
+    }
+
+    // A. 1. e. contact me menu button
+
+    public function getFileNamecm()
+    {
+        $sql = "SELECT fileName
                 FROM tbPages
                 WHERE pageID=5";
                 
