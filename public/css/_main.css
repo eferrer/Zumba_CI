@@ -27,8 +27,8 @@ body {
   height: 100%;
 
   -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
 
 h1 {
@@ -48,19 +48,32 @@ h3 {
   color: #14080a;
 }
 
+#testimonials h3 {
+  border-bottom: 1px solid #ec31b1;
+}
+
+.classPrice h3 {
+  border-bottom: 1px solid #1fe0fc;
+}
+
+#studentInfo h3 {
+  border-bottom: 1px solid #1fe0fc;
+}
+
 a {
   font-family: "Didact Gothic", sans-serif;
 }
 
 p {
   font-family: "Didact Gothic", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   color: #191919;
 }
 
 li {
   font-family: "Didact Gothic", sans-serif;
+  font-size: 1rem;
 }
 
 header {
@@ -77,12 +90,15 @@ header {
 #navBar {
   background: #14080a;
 }
+
 #navBar #menu {
   background: #14080a;
 }
+
 #navBar li {
   display: inline-block;
 }
+
 #navBar li a {
   color: white;
   background-color: #14080a;
@@ -100,36 +116,47 @@ header {
   -o-transition: all 0.6s linear;
   /* Opera */
 }
+
 #navBar li.home a {
   border: 20px solid #a8e232;
 }
+
 #navBar li.home a:hover {
   background-color: #a8e232;
 }
+
 #navBar li.about a {
   border: 20px solid #ec31b1;
 }
+
 #navBar li.about a:hover {
   background-color: #ec31b1;
 }
+
 #navBar li.classes a {
   border: 20px solid #1fe0fc;
 }
+
 #navBar li.classes a:hover {
   background-color: #1fe0fc;
 }
+
 #navBar li.gallery a {
   border: 20px solid #f7931e;
 }
+
 #navBar li.gallery a:hover {
   background-color: #f7931e;
 }
+
 #navBar li.contact a {
   border: 20px solid #9f4ac8;
 }
+
 #navBar li.contact a:hover {
   background-color: #9f4ac8;
 }
+
 #navBar li a:hover,
 #navBar li a:focus,
 #navBar li a:active {
@@ -142,41 +169,41 @@ header {
   color: white;
 }
 
- .homeHeading {
-    border-bottom: 5px solid #a8e232;
-  }
+.homeHeading {
+  border-bottom: 5px solid #a8e232;
+}
 
-    .aboutHeading {
-    border-bottom: 5px solid #ec31b1;
-  }
+  .aboutHeading {
+  border-bottom: 5px solid #ec31b1;
+}
 
-  .classHeading {
-    border-bottom: 5px solid #1fe0fc;
-  }
+.classHeading {
+  border-bottom: 5px solid #1fe0fc;
+}
 
-  .contactHeading {
-    border-bottom: 5px solid #9f4ac8;
-  }
+.contactHeading {
+  border-bottom: 5px solid #9f4ac8;
+}
 
-  #homeTag {
-    color: #a8e232;
-  }
+#homeTag {
+  color: #a8e232;
+}
 
-  #aboutTag {
-    color: #ec31b1;  
-  }
+#aboutTag {
+  color: #ec31b1;  
+}
 
-  #classesTag {
-    color: #1fe0fc;
-  }
+#classesTag {
+  color: #1fe0fc;
+}
 
-  #galleryTag {
-    color: #f7931e;
-  }
+#galleryTag {
+  color: #f7931e;
+}
 
-  #contactTag {
-    color: #9f4ac8;
-  }
+#contactTag {
+  color: #9f4ac8;
+}
 
 .zumbaIs {
   color: #a8e232;
@@ -211,6 +238,30 @@ header {
   display: block;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.promoAbout {
+  border: 25px solid #ec31b1;
+}
+
+.prmsgAbout {
+  color: #ec31b1;
+}
+
+.promoClasses {
+  border: 25px solid #1fe0fc;
+}
+
+.prmsgClasses {
+  color: #1fe0fc;
+}
+
+.promoContact {
+  border: 25px solid #9f4ac8;
+}
+
+.prmsgContact {
+  color: #9f4ac8;
 }
 
 #viewClasses {
@@ -338,6 +389,7 @@ footer {
 #copyright {
   background-color: #f7931e;
 }
+
 #copyright p {
   color: #14080a;
 }
@@ -522,9 +574,11 @@ footer {
     width: 90%;
     margin: auto;
   }
+  
   #navBar li {
     display: block !important;
   }
+  
   #navBar li a {
     display: block;
     font-size: 1rem;
@@ -565,10 +619,6 @@ footer {
     font-size: 1rem;
   }
 
-  p{
-    font-size: :0.9rem;
-  }
-
   #content {
     width: 90%;
     height: 100%;
@@ -593,8 +643,7 @@ footer {
   #aboutTag, 
   #classesTag,
   #galleryTag,
-  #contactTag
-   {
+  #contactTag{
     width: 90%;
     margin: auto;
     text-align: center;
@@ -698,17 +747,6 @@ footer {
     margin-bottom: 1rem;
     color: #191919;
   }
-  #testimonials h3 {
-    border-bottom: 1px solid #ec31b1;
-  }
-
-  .promoAbout {
-    border: 25px solid #ec31b1;
-  }
-
-  .prmsgAbout {
-    color: #ec31b1;
-  }
 
   #selfContainer {
     display: none;
@@ -723,14 +761,6 @@ footer {
     width: 90%;
     height: 100%;
     margin: auto;
-  }
-
-  .promoClasses {
-    border: 25px solid #1fe0fc;
-  }
-
-  .prmsgClasses {
-    color: #1fe0fc;
   }
 
   .classDetails {
@@ -784,17 +814,9 @@ footer {
     margin: auto;
   }
 
-  .classPrice h3 {
-    border-bottom: 1px solid #1fe0fc;
-  }
-
   .classPrice p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-
-  #studentInfo h3 {
-    border-bottom: 1px solid #1fe0fc;
   }
 
   .studentInfo {
@@ -891,14 +913,6 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
-
-  .promoContact {
-    border: 25px solid #9f4ac8;
-  }
- 
-  .prmsgContact {
-    color: #9f4ac8;
-  }
 }
 
 /**********************************************************************************************************/
@@ -940,10 +954,12 @@ footer {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
   }
+  
   #navBar #menu {
     width: 90%;
     margin: auto;
   }
+  
   #navBar li {
     display: block !important;
   }
@@ -1035,7 +1051,6 @@ footer {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    /*color: #a8e232;*/
     font-size: 1.5rem;
   }
 
@@ -1059,7 +1074,6 @@ footer {
   }
 
   footer {
-    /*margin-top: -1rem;*/
     padding-top: 1rem;
   }
 
@@ -1138,32 +1152,6 @@ footer {
     color: #191919;
   }
 
-  #testimonials h3 {
-    border-bottom: 1px solid #ec31b1;
-  }
-
-  #aboutTag {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: #ec31b1;
-    font-size: 1.5rem;
-  }
-
-  .promoAbout {
-    border: 25px solid #ec31b1;
-  }
-  .promoAbout p {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-
-  .prmsgAbout {
-    color: #ec31b1;
-  }
-
   #selfphoto {
     display: none;
   }
@@ -1177,15 +1165,6 @@ footer {
     width: 90%;
     height: 100%;
     margin: auto;
-  }
-
-  .promoClasses {
-    border: 25px solid #1fe0fc;
-  }
-
-
-  .prmsgClasses {
-    color: #1fe0fc;
   }
 
   .classDetails {
@@ -1239,17 +1218,9 @@ footer {
     margin: auto;
   }
 
-  .classPrice h3 {
-    border-bottom: 1px solid #1fe0fc;
-  }
-
   .classPrice p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-
-  #studentInfo h3 {
-    border-bottom: 1px solid #1fe0fc;
   }
 
   .studentInfo {
@@ -1264,13 +1235,13 @@ footer {
     margin: auto;
     margin-top: 2rem;
   }
+  
   .needs li {
     line-height: 1.5rem;
     list-style-type: disc;
     list-style-position: inside;
     color: #191919;
   }
-
 
   /* ===== == = === GALLERY PAGE=== = == ===== */
   /* ===== == = === 481 px - 800 px === = == ===== */
@@ -1307,8 +1278,6 @@ footer {
 
   /* ===== == = === CONTACT ME PAGE=== = == ===== */
   /* ===== == = === 481 px - 800 px === = == ===== */
-
-  
 
   #contact {
     width: 90%;
@@ -1349,17 +1318,6 @@ footer {
     width: 50%;
     margin: 0 auto;
   }
-
-  .promoContact {
-   
-    border: 25px solid #9f4ac8;
-  }
- 
-
-  .prmsgContact {
-    color: #9f4ac8;
-  }
-
 }
 
 /**********************************************************************************************************/
@@ -1396,14 +1354,17 @@ footer {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
   }
+  
   #navBar #menu {
     width: 95%;
     margin: auto;
   }
+  
   #navBar li {
     width: 18%;
     margin-right: 1.3%;
   }
+  
   #navBar li a {
     display: block;
     font-size: 0.8rem;
@@ -1414,10 +1375,12 @@ footer {
     -moz-border-radius: 20px;
     border-radius: 20px;
   }
+  
   #navBar li a:hover {
     display: block;
     font-size: 0.8rem;
   }
+  
   #navBar li:last-child {
     margin-right: 0%;
   }
@@ -1427,6 +1390,7 @@ footer {
     margin: auto;
     margin-top: 3rem;
   }
+  
   #danceTypes p {
     font-size: 2.8rem;
     line-height: 3rem;
@@ -1438,6 +1402,25 @@ footer {
     margin-top: 3rem;
     background-color: #f7f7f7;
     border: 60px solid white;
+  }
+  
+  .homeHeading, 
+  .aboutHeading,
+  .classHeading,
+  .contactHeading {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  h3{
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
+    font-size: 1.7rem;
   }
 
   #content {
@@ -1451,14 +1434,6 @@ footer {
     width: 100%;
     margin: auto;
     margin-bottom: 2rem;
-  }
-
-  h2 {
-    clear: both;
-    text-align: center;
-    padding-top: 2rem;
-    color: #a8e232;
-    font-size: 2rem;
   }
 
   #rightContent {
@@ -1494,15 +1469,37 @@ footer {
     font-size: 0rem;
   }
 
-  #homeTag {
+  #homeTag,
+  #aboutTag, 
+  #classesTag,
+  #galleryTag,
+  #contactTag {
     clear: both;
     margin: auto;
     width: 95%;
     text-align: center;
     padding-top: 3.5rem;
     padding-bottom: 2rem;
-    color: #a8e232;
     font-size: 2rem;
+  }
+  
+  #promo {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .promoAbout, 
+  .promoClasses, 
+  .promoContact {
+    width: 55%;
+    margin: auto;
+  }
+  
+  .promoAbout, 
+  .promoClasses, 
+  .promoContact p {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   footer {
@@ -1550,6 +1547,7 @@ footer {
     margin-top: 2rem;
     border-top: 2px solid #f7931e;
   }
+  
   .social li {
     display: inline-block;
     width: 30%;
@@ -1557,6 +1555,7 @@ footer {
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
+  
   .social a {
     font-size: 2rem;
   }
@@ -1569,6 +1568,7 @@ footer {
     height: 4rem;
     margin-top: -1rem;
   }
+  
   #copyright p {
     font-size: 0.8rem;
     padding-top: 1rem;
@@ -1723,7 +1723,7 @@ footer {
     height: 100%;
   }
 
-  .selfPhoto {
+  .selfPhoto  {
     clear: both;
     background-image: url("../images/full/self80.jpg");
     background-repeat: no-repeat;
@@ -1740,6 +1740,7 @@ footer {
     width: 90%;
     margin: auto;
   }
+  
   #testimonials ul {
     width: 100%;
     margin-top: 3rem;
@@ -1748,53 +1749,9 @@ footer {
     margin-bottom: 1rem;
     color: #191919;
   }
-  #testimonials h3 {
-    display: inline;
-    margin-top: 2rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid #ec31b1;
-  }
-
-  #aboutTag {
-    margin: auto;
-    width: 95%;
-    text-align: center;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-    color: #ec31b1;
-    font-size: 2rem;
-  }
-
-  #promo {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-
-  .promoAbout {
-    width: 55%;
-    margin: auto;
-    border: 25px solid #ec31b1;
-  }
-  .promoAbout p {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-
-  .prmsgAbout {
-    color: #ec31b1;
-  }
 
   /* ===== == = ===CLASSES PAGE=== = == ===== */
   /* ===== == = === 801px  - 1280 px === = == ===== */
-  
-  /*.classHeading {
-    display: block;
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 5px solid #1fe0fc;
-  }
 
   #classSchedule,
   #priceSchedule,
@@ -1806,31 +1763,6 @@ footer {
 
   #mainContainer:last-child {
     margin-bottom: 4rem;
-  }
-
-  #classesTag {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: #1fe0fc;
-    font-size: 1.5rem;
-  }
-
-  .promoClasses {
-    width: 55%;
-    margin: auto;
-    margin-bottom: 3rem;
-    border: 25px solid #1fe0fc;
-  }
-  .promoClasses p {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-
-  .prmsgClasses {
-    color: #1fe0fc;
   }
 
   .classDetails {
@@ -1892,23 +1824,9 @@ footer {
     margin: auto;
   }
 
-  .classPrice h3 {
-    display: inline;
-    margin-top: 2rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid #1fe0fc;
-  }
-
   .classPrice p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-
-  #studentInfo h3 {
-    display: inline;
-    margin-top: 2rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid #1fe0fc;
   }
 
   .studentInfo {
@@ -1928,12 +1846,12 @@ footer {
     list-style-type: disc;
     list-style-position: inside;
     color: #191919;
-  }*/
+  }
 
   /* ===== == = ===GALLERY PAGE=== = == ===== */
   /* ===== == = === 801px  - 1280 px === = == ===== */
 
-  /*#videoContainer {
+  #videoContainer {
     width: 90%;
     height: 100%;
     margin: auto;
@@ -1963,37 +1881,14 @@ footer {
     height: 90%;
   }
 
-  #galleryTag {
-    clear: both;
-    margin: auto;
-    width: 95%;
-    text-align: center;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-    color: #f7931e;
-    font-size: 2rem;
-  }*/
-
   /* ===== == = ===CONTACT ME PAGE=== = == ===== */
   /* ===== == = === 801px  - 1280 px === = == ===== */
 
-  /*#mainContainer {
+  #mainContainer {
     background-image: url("../assets/images/whiteWall.png");
     max-width: 80%;
     height: 100%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
     border: 60px solid white;
-  }
-
-  .contactHeading {
-    display: block;
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 5px solid #9f4ac8;
   }
 
   #contact {
@@ -2036,31 +1931,7 @@ footer {
     width: 50%;
     margin: 0 auto;
   }
-
-  #contactTag {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: #9f4ac8;
-    font-size: 1.5rem;
-  }
-
-  .promoContact {
-    width: 55%;
-    margin: auto;
-    border: 25px solid #9f4ac8;
-  }
-  .promoContact p {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-
-  .prmsgContact {
-    color: #9f4ac8;
-  }
-}*/
+}
 
 /**********************************************************************************************************/
 
@@ -2068,7 +1939,8 @@ footer {
 
 /**********************************************************************************************************/
 
-/*@media screen and (min-width: 80.1em) {
+@media screen and (min-width: 80.1em) {
+  
   #logo {
     background-image: url("../images/full/zumbaLogo1281.png");
     background-repeat: no-repeat;
@@ -2096,14 +1968,17 @@ footer {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
   }
+  
   #navBar #menu {
     width: 80em;
     margin: auto;
   }
+  
   #navBar li {
     width: 18%;
     margin-right: 2%;
   }
+  
   #navBar li a {
     display: block;
     font-size: 1.4rem;
@@ -2114,6 +1989,7 @@ footer {
     -moz-border-radius: 20px;
     border-radius: 20px;
   }
+  
   #navBar li:last-child {
     margin-right: 0%;
   }
@@ -2123,6 +1999,7 @@ footer {
     margin: auto;
     margin-top: 3rem;
   }
+  
   #danceTypes p {
     font-size: 3rem;
     line-height: 3rem;
@@ -2133,20 +2010,27 @@ footer {
     height: 100%;
     margin-top: 3rem;
     background-color: #f7f7f7;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
     border: 60px solid white;
   }
 
-  .homeHeading {
+  .homeHeading, 
+  .aboutHeading,
+  .classHeading,
+  .contactHeading  {
     display: block;
     width: 90%;
     margin-top: 6rem;
     margin-left: 5%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 5px solid #a8e232;
+    font-size: 2rem;
+  }
+  
+  h3{
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
+    font-size: 1.7rem;
   }
 
   #content {
@@ -2195,15 +2079,37 @@ footer {
     font-size: 0rem;
   }
 
-  #homeTag {
+  #homeTag,
+  #aboutTag, 
+  #classesTag,
+  #galleryTag,
+  #contactTag{
     clear: both;
     margin: auto;
     width: 95%;
     text-align: center;
     padding-top: 3.5rem;
     padding-bottom: 2rem;
-    color: #a8e232;
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  
+  #promo {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .promoAbout, 
+  .promoClasses, 
+  .promoContact {
+    width: 55%;
+    margin: auto;
+  }
+  
+  .promoAbout, 
+  .promoClasses, 
+  .promoContact p {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   footer {
@@ -2270,6 +2176,7 @@ footer {
     height: 4rem;
     margin-top: -1rem;
   }
+  
   #copyright p {
     font-size: 0.8rem;
     padding-top: 1rem;
@@ -2316,7 +2223,7 @@ footer {
     display: block;
     background: #fff;
     /* Fix for IE6-9 */
-    /*opacity: 0;
+    opacity: 0;
     filter: alpha(opacity=1);
     width: 48%;
     text-indent: -9999px;
@@ -2401,19 +2308,10 @@ footer {
   .large-btns_here a {
     background: #222;
     background: rgba(0, 0, 0, 0.8);
-  }*/
+  }
 
   /* ===== == = ===ABOUT ME PAGE=== = == ===== */
   /* ===== == = === 1280 px plus=== = == ===== */
-  
- /* .aboutHeading {
-    display: block;
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 5px solid #ec31b1;
-  }
 
   #about {
     float: left;
@@ -2452,64 +2350,19 @@ footer {
     width: 90%;
     margin: auto;
   }
+  
   #testimonials ul {
     width: 100%;
     margin-top: 3rem;
   }
+  
   #testimonials li {
     margin-bottom: 1rem;
     color: #191919;
   }
-  #testimonials h3 {
-    display: inline;
-    margin-top: 2rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid #ec31b1;
-  }
-
-  #aboutTag {
-    clear: both;
-    margin: auto;
-    width: 95%;
-    text-align: center;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-    color: #ec31b1;
-    font-size: 2rem;
-  }
-
-  #promo {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-
-  .promoAbout {
-    width: 55%;
-    margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    border: 25px solid #ec31b1;
-  }
-  .promoAbout p {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-
-  .prmsgAbout {
-    color: #ec31b1;
-  }*/
 
   /* ===== == = ===CLASSES PAGE=== = == ===== */
   /* ===== == = === 1280 px plus=== = == ===== */
-
- /* .classHeading {
-    display: block;
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 5px solid #1fe0fc;
-  }
 
   #classSchedule,
   #priceSchedule,
@@ -2521,31 +2374,6 @@ footer {
 
   #mainContainer:last-child {
     margin-bottom: 4rem;
-  }
-
-  #classesTag {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: #1fe0fc;
-    font-size: 1.5rem;
-  }
-
-  .promoClasses {
-    width: 55%;
-    margin: auto;
-    margin-bottom: 3rem;
-    border: 25px solid #1fe0fc;
-  }
-  .promoClasses p {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-
-  .prmsgClasses {
-    color: #1fe0fc;
   }
 
   .classDetails {
@@ -2607,23 +2435,9 @@ footer {
     margin: auto;
   }
 
-  .classPrice h3 {
-    display: inline;
-    margin-top: 2rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid #1fe0fc;
-  }
-
   .classPrice p {
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
-
-  #studentInfo h3 {
-    display: inline;
-    margin-top: 2rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid #1fe0fc;
   }
 
   .studentInfo {
@@ -2638,17 +2452,18 @@ footer {
     margin: auto;
     margin-top: 2rem;
   }
+  
   .needs li {
     line-height: 1.5rem;
     list-style-type: disc;
     list-style-position: inside;
     color: #191919;
-  }*/
+  }
 
   /* ===== == = ===GALLERY PAGE=== = == ===== */
   /* ===== == = === 1280 px plus=== = == ===== */
 
-  /*#videoContainer {
+  #videoContainer {
     width: 90%;
     height: 100%;
     margin: auto;
@@ -2678,37 +2493,14 @@ footer {
     height: 90%;
   }
 
-  #galleryTag {
-    clear: both;
-    margin: auto;
-    width: 95%;
-    text-align: center;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-    color: #f7931e;
-    font-size: 2rem;
-  }*/
-
   /* ===== == = ===CONTACT ME PAGE=== = == ===== */
   /* ===== == = === 1280 px plus=== = == ===== */
 
-  /*#mainContainer {
+  #mainContainer {
     background-image: url("../assets/images/whiteWall.png");
     max-width: 80%;
     height: 100%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
     border: 60px solid white;
-  }
-
-  .contactHeading {
-    display: block;
-    width: 90%;
-    margin-left: 5%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 5px solid #9f4ac8;
   }
 
   #contact {
@@ -2751,28 +2543,4 @@ footer {
     width: 50%;
     margin: 0 auto;
   }
-
-  #contactTag {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: #9f4ac8;
-    font-size: 1.5rem;
-  }
-
-  .promoContact {
-    width: 55%;
-    margin: auto;
-    border: 25px solid #9f4ac8;
-  }
-  .promoContact p {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-
-  .prmsgContact {
-    color: #9f4ac8;
-  }
-}*/
+}
