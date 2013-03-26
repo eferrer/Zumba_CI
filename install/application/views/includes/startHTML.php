@@ -29,11 +29,20 @@
       
       <nav id="navBar"> <!--navigation bar begins-->
         <ul id="menu">
-          <li class="home"><a href="home">Home</a></li>
-          <li class="about"><a href="about">About Me</a></li>
-          <li class="classes"><a href="classtimes">Classes</a></li>
-          <li class="gallery"><a href="gallery">Video</a></li>
-          <li class="contact"><a href="contact">Contact Me</a></li>
+
+          <?php
+          $aMenu = $menu->result_array();
+
+          // echo "<pre>";
+          //   print_r($aMenu);
+          //   echo "</pre>";
+
+          foreach ($aMenu as $key=>$aRow){
+            echo '<li class="'.$aRow['fileName'].'"><a href="'.$aRow['fileName']. '/'. $aRow['pageID'].  '">'.$aRow['pageName'].'</a></li>';
+          }
+
+          ?>
+          
         </ul>
       </nav> <!--navigation bar ends--> 
     </header><!--logo and menu container ends-->

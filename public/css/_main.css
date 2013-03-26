@@ -133,11 +133,11 @@ header {
   background-color: #ec31b1;
 }
 
-#navBar li.classes a {
+#navBar li.classtimes a {
   border: 20px solid #1fe0fc;
 }
 
-#navBar li.classes a:hover {
+#navBar li.classtimes a:hover {
   background-color: #1fe0fc;
 }
 

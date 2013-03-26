@@ -22,6 +22,18 @@ class Cmsmodel extends CI_Model{
 
     //==============================================================
 
+    public function getContentByPageID()
+    {
+        $pageID = $this->uri->segment(3, 1);
+        
+        $sql = "SELECT contentDetails
+                FROM tbContent
+                WHERE pageID=$pageID";
+                
+        return $this->db->query($sql);
+    }
+
+
     // A. 1. with the page ID hardcoded
     
      // A. 1. a. home page content
@@ -35,39 +47,28 @@ class Cmsmodel extends CI_Model{
     //     return $this->db->query($sql);
     // }
     
-    public function getContentByPageID()
-    {
-        $pageID = $this->uri->segment(3, 0);
-        
-        $sql = "SELECT contentDetails
-                FROM tbContent
-                WHERE pageID=$pageID";
-                
-        return $this->db->query($sql);
-    }
-
 
     // A. 1. b. about page: about me content
 
-    public function getContentByPageIDa()
-    {
-        $sql = "SELECT contentDetails
-                FROM tbContent
-                WHERE pageID=2";
+    // public function getContentByPageIDa()
+    // {
+    //     $sql = "SELECT contentDetails
+    //             FROM tbContent
+    //             WHERE pageID=2";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
     
       // A. 1. c. Classes page all content
 
-    public function getContentByPageIDc()
-    {
-        $sql = "SELECT contentDetails
-                FROM tbContent
-                WHERE pageID=3";
+    // public function getContentByPageIDc()
+    // {
+    //     $sql = "SELECT contentDetails
+    //             FROM tbContent
+    //             WHERE pageID=3";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
     
     //$pageID = $this->uri->segment(3, 0);
    
@@ -219,61 +220,18 @@ class Cmsmodel extends CI_Model{
 
     // E. GET MENU BUTTONS (PAGE NAME) BY PAGE ID
 
+    // WORKS!!! COMPLETED!!
+
     //==============================================================
 
      // 1. with the page ID hardcoded
 
     // A. 1. a. home menu button
 
-    public function getFileNameh()
+    public function getMenuParts()
     {
-        $sql = "SELECT fileName
-                FROM tbPages
-                WHERE pageID=1";
-                
-        return $this->db->query($sql);
-    }
-
-    // A. 1. b. about menu button
-
-    public function getFileNamea()
-    {
-        $sql = "SELECT fileName
-                FROM tbPages
-                WHERE pageID=2";
-                
-        return $this->db->query($sql);
-    }
-
-    // A. 1. c. classes menu button
-
-    public function getFileNamec()
-    {
-        $sql = "SELECT fileName
-                FROM tbPages
-                WHERE pageID=3";
-                
-        return $this->db->query($sql);
-    }
-
-    // A. 1. d. gallery menu button
-
-    public function getFileNameg()
-    {
-        $sql = "SELECT fileName
-                FROM tbPages
-                WHERE pageID=4";
-                
-        return $this->db->query($sql);
-    }
-
-    // A. 1. e. contact me menu button
-
-    public function getFileNamecm()
-    {
-        $sql = "SELECT fileName
-                FROM tbPages
-                WHERE pageID=5";
+        $sql = "SELECT fileName, pageName, pageID
+                FROM tbPages";
                 
         return $this->db->query($sql);
     }
