@@ -37,6 +37,7 @@
             <p class="submit"><input type="submit" value="SUBMIT" /></p>
             
           </form>
+        </section><!--content ends-->
       
         <section><!--tagline begins-->
           <h2 id="contactTag">
@@ -46,6 +47,8 @@
               ?>
           </h2>
         </section><!--tagline ends-->
+        
+    </section><!--main container ends-->
     
     <section id="promo" class="promoContact"><!--promotional tag begins-->
            <p><!--Mention this website and receive <span class="prmsgAbout">50%</span> off all classes in your first week OR bring a friend for <span class="prmsgAbout">FREE!</span>--> <?php 
