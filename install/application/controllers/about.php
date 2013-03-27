@@ -44,6 +44,8 @@ class About extends CI_Controller {
             $this->load->model('Cmsmodel');
             
             // GET CONTENT, HEADINGS AND TAGLINES
+
+            $data['menu'] = $this->Cmsmodel->getMenuParts();
             $data['content'] = $this->Cmsmodel->getContentByPageIDa();
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDa();
             $data['subHeading'] = $this->Cmsmodel->getSubHeadingByPageIDa();
@@ -56,7 +58,7 @@ class About extends CI_Controller {
             // GET PROMOTIONAL DETAILS
             $data['promoDetails'] = $this->Cmsmodel->getPromotion();
             
-            $this->load->view('includes/startHTML');
+            $this->load->view('includes/startHTML', $data);
             $this->load->view('aboutView', $data);
             $this->load->view('includes/endHTML');
     }
