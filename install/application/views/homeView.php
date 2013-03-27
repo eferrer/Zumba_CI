@@ -25,7 +25,13 @@
                   <?php 
                           $oContent = $content->row();
                           echo nl2br($oContent->contentDetails);
+
+                          // echo "SEGMENTS";
+                          // echo "SEGMENTS 1". $this->uri->segment(1);
+                          // echo "SEGMENTS 2". $this->uri->segment(2);
+                          // echo "SEGMENTS 3". $this->uri->segment(3);
                     ?>
+
                     </p>
             </article><!--content paragraphs end-->
         
