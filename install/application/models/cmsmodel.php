@@ -7,6 +7,54 @@ class Cmsmodel extends CI_Model{
         parent::__construct();
     }
     
+
+    ################################################################
+
+    //model
+    // get Content
+    // returns all the content blocks for a page identified by the fileName in the uri - 1, 2 0r 3?
+    function getContent()
+    {
+        $sql = "SELECT contentDetails
+                    FROM tbContent
+                    WHERE pageID =
+                    ('SELECT pageID FROM tbPages
+                    WHERE fileName = ' .$this->uri->segment(1) )";
+    }
+
+    public function getMainHeading()
+    {
+        $sql = "SELECT H1
+                    FROM tbContent
+                    WHERE pageID=
+                    ('SELECT pageID FROM tbPages
+                    WHERE fileName = ' .$this->uri->segment(1) )";
+                
+        return $this->db->query($sql);
+    }
+
+    public function getSubHeading()
+    {
+        $sql = "SELECT H3
+                    FROM tbContent
+                    WHERE pageID=
+                    ('SELECT pageID FROM tbPages
+                    WHERE fileName = ' .$this->uri->segment(1) )";
+                
+        return $this->db->query($sql);
+    }
+
+    public function getTagline()
+    {
+        $sql = "SELECT tagline
+                FROM tbPages
+                WHERE pageID=
+                ('SELECT pageID FROM tbPages
+                WHERE fileName = ' .$this->uri->segment(1) )";
+                
+        return $this->db->query($sql);
+    }
+
     //==============================================================
     // Test 1. Test that the about controller is calling Cmsmodel correctly
     // WORKS!!
@@ -22,16 +70,16 @@ class Cmsmodel extends CI_Model{
 
     //==============================================================
 
-    public function getContentByPageID()
-    {
-        $pageID = $this->uri->segment(3, 1);
+    // public function getContentByPageID()
+    // {
+    //     $pageID = $this->uri->segment(3);
         
-        $sql = "SELECT contentDetails
-                FROM tbContent
-                WHERE pageID=$pageID";
+    //     $sql = "SELECT contentDetails
+    //             FROM tbContent
+    //             WHERE pageID=$pageID";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
 
 
     // A. 1. with the page ID hardcoded
@@ -59,7 +107,7 @@ class Cmsmodel extends CI_Model{
     //     return $this->db->query($sql);
     // }
     
-      // A. 1. c. Classes page all content
+     // A. 1. c. Classes page all content
 
     // public function getContentByPageIDc()
     // {
@@ -82,47 +130,47 @@ class Cmsmodel extends CI_Model{
     
      // B. 1. a. home page main heading
 
-    public function getMainHeadingByPageIDh()
-    {
-        $sql = "SELECT H1
-                FROM tbContent
-                WHERE pageID=1";
+    // public function getMainHeadingByPageIDh()
+    // {
+    //     $sql = "SELECT H1
+    //             FROM tbContent
+    //             WHERE pageID=1";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
     
-     // B. 1. b. about page main heading
+    //  // B. 1. b. about page main heading
 
-    public function getMainHeadingByPageIDa()
-    {
-        $sql = "SELECT H1
-                FROM tbContent
-                WHERE pageID=2";
+    // public function getMainHeadingByPageIDa()
+    // {
+    //     $sql = "SELECT H1
+    //             FROM tbContent
+    //             WHERE pageID=2";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
 
-    // B. 1. c. classes page main heading
+    // // B. 1. c. classes page main heading
 
-    public function getMainHeadingByPageIDc()
-    {
-        $sql = "SELECT H1
-                FROM tbContent
-                WHERE pageID=3";
+    // public function getMainHeadingByPageIDc()
+    // {
+    //     $sql = "SELECT H1
+    //             FROM tbContent
+    //             WHERE pageID=3";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
     
     // B. 1. d. contact me page main heading
 
-    public function getMainHeadingByPageIDcm()
-    {
-        $sql = "SELECT H1
-                FROM tbContent
-                WHERE pageID=5";
+    // public function getMainHeadingByPageIDcm()
+    // {
+    //     $sql = "SELECT H1
+    //             FROM tbContent
+    //             WHERE pageID=5";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
 
     //==============================================================
 
@@ -134,24 +182,24 @@ class Cmsmodel extends CI_Model{
 
     // A. 1. a. about page testimonials sub heading
 
-    public function getSubHeadingByPageIDa()
-    {
-        $sql = "SELECT H3
-                FROM tbContent
-                WHERE pageID=2";
+    // public function getSubHeadingByPageIDa()
+    // {
+    //     $sql = "SELECT H3
+    //             FROM tbContent
+    //             WHERE pageID=2";
                 
-        return $this->db->query($sql);
-    }
-    // C. 1. b. classes page sub headings
+    //     return $this->db->query($sql);
+    // }
+    // // C. 1. b. classes page sub headings
 
-    public function getSubHeadingByPageIDc()
-    {
-        $sql = "SELECT H3
-                FROM tbContent
-                WHERE pageID=3";
+    // public function getSubHeadingByPageIDc()
+    // {
+    //     $sql = "SELECT H3
+    //             FROM tbContent
+    //             WHERE pageID=3";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
 
     //==============================================================
 
@@ -163,58 +211,58 @@ class Cmsmodel extends CI_Model{
 
     // A. 1. a. home page tagline
 
-    public function getTaglineh()
-    {
-        $sql = "SELECT tagline
-                FROM tbPages
-                WHERE pageID=1";
+    // public function getTaglineh()
+    // {
+    //     $sql = "SELECT tagline
+    //             FROM tbPages
+    //             WHERE pageID=1";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
 
-    // A. 1. b. about page tagline
+    // // A. 1. b. about page tagline
 
-    public function getTaglinea()
-    {
-        $sql = "SELECT tagline
-                FROM tbPages
-                WHERE pageID=2";
+    // public function getTaglinea()
+    // {
+    //     $sql = "SELECT tagline
+    //             FROM tbPages
+    //             WHERE pageID=2";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
 
     // A. 1. c. classes page tagline
 
-    public function getTaglinec()
-    {
-        $sql = "SELECT tagline
-                FROM tbPages
-                WHERE pageID=3";
+    // public function getTaglinec()
+    // {
+    //     $sql = "SELECT tagline
+    //             FROM tbPages
+    //             WHERE pageID=3";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
 
-    // A. 1. d. gallery page tagline
+    // // A. 1. d. gallery page tagline
 
-    public function getTaglineg()
-    {
-        $sql = "SELECT tagline
-                FROM tbPages
-                WHERE pageID=4";
+    // public function getTaglineg()
+    // {
+    //     $sql = "SELECT tagline
+    //             FROM tbPages
+    //             WHERE pageID=4";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
 
-    // A. 1. e. contact me page tagline
+    // // A. 1. e. contact me page tagline
 
-    public function getTaglinecm()
-    {
-        $sql = "SELECT tagline
-                FROM tbPages
-                WHERE pageID=5";
+    // public function getTaglinecm()
+    // {
+    //     $sql = "SELECT tagline
+    //             FROM tbPages
+    //             WHERE pageID=5";
                 
-        return $this->db->query($sql);
-    }
+    //     return $this->db->query($sql);
+    // }
     
     //==============================================================
 
