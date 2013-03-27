@@ -2,6 +2,11 @@
 
 class Home extends CI_Controller {
 
+    function __construct()
+    {
+        parent::__construct();
+    }
+
     //==============================================================
     // Hardcode something for the content 
     // Display that something out in the about view
@@ -52,12 +57,15 @@ class Home extends CI_Controller {
             $data=array();
 
             $this->load->model('Cmsmodel');
-            // $data['content'] = $this->Cmsmodel->getContentByPageIDh();
-            $data['content'] = $this->Cmsmodel->getContentByPageID();
+            
+            $data['menu'] = $this->Cmsmodel->getMenuParts();
+            $data['content'] = $this->Cmsmodel->getContentByPageIDh();
+            //$data['content'] = $this->Cmsmodel->getContentByPageIDh();
             $data['mainHeading'] = $this->Cmsmodel->getMainHeadingByPageIDh();
             $data['tagline'] = $this->Cmsmodel->getTaglineh();
+            
 
-            $this->load->view('includes/startHTML');
+            $this->load->view('includes/startHTML', $data);
             $this->load->view('homeView', $data);
             $this->load->view('includes/endHTML');
     }
